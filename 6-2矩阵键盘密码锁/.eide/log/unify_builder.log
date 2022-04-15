@@ -1,0 +1,81 @@
+[2022-04-13 16:00:24]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\6-2矩阵键盘密码锁\src\LCD1602.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+.\src\LCD1602.c:1:19: fatal error: REG52.h: No such file or directory
+compilation terminated.
+.\src\LCD1602.c:1: warning 190: ISO C forbids an empty source file
+
+[2022-04-13 16:00:45]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\6-2矩阵键盘密码锁\src\LCD1602.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+.\src\LCD1602.c:1:19: fatal error: REG52.h: No such file or directory
+compilation terminated.
+.\src\LCD1602.c:1: warning 190: ISO C forbids an empty source file
+
+[2022-04-13 16:00:58]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\6-2矩阵键盘密码锁\src\LCD1602.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+.\src\LCD1602.c:1:19: fatal error: REG52.h: No such file or directory
+compilation terminated.
+.\src\LCD1602.c:1: warning 190: ISO C forbids an empty source file
+
+[2022-04-13 16:01:33]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\6-2矩阵键盘密码锁\src\LCD1602.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+.\src\LCD1602.c:1:19: fatal error: REG52.h: No such file or directory
+compilation terminated.
+.\src\LCD1602.c:1: warning 190: ISO C forbids an empty source file
+
+[2022-04-13 16:02:29]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\6-2矩阵键盘密码锁\src\LCD1602.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+.\src\LCD1602.c:1:19: fatal error: REG52.h: No such file or directory
+compilation terminated.
+.\src\LCD1602.c:1: warning 190: ISO C forbids an empty source file
+
+[2022-04-13 16:03:48]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\6-2矩阵键盘密码锁\src\LCD1602.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+.\src\LCD1602.c:1:19: fatal error: REG52.h: No such file or directory
+compilation terminated.
+.\src\LCD1602.c:1: warning 190: ISO C forbids an empty source file
+
+[2022-04-13 16:05:32]	[done]
+	build successfully !
+
+[2022-04-13 16:06:06]	[done]
+	build successfully !
+
+[2022-04-13 16:22:59]	[done]
+	build successfully !
+
+[2022-04-13 16:29:11]	[done]
+	build successfully !
+
+[2022-04-13 16:29:59]	[done]
+	build successfully !
+
+[2022-04-13 16:36:23]	[done]
+	build successfully !
+
+[2022-04-13 16:39:47]	[done]
+	build successfully !
+
+[2022-04-13 16:45:18]	[done]
+	build successfully !
+
+[2022-04-13 16:45:39]	[done]
+	build successfully !
+
+[2022-04-13 16:46:25]	[done]
+	build successfully !
+
+[2022-04-13 16:47:00]	[done]
+	build successfully !
+
+[2022-04-13 16:47:45]	[done]
+	build successfully !
+
+[2022-04-13 17:44:23]	[done]
+	build successfully !
+

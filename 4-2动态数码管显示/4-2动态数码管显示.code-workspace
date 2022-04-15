@@ -1,0 +1,51 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "..\\4-1静态数码管显示"
+        }
+    ],
+    "settings": {
+        "C_Cpp.default.intelliSenseMode": "gcc-x86",
+        "files.autoGuessEncoding": false,
+        "files.encoding": "gbk",
+        "C_Cpp.default.cppStandard": "c++11",
+        "C_Cpp.default.cStandard": "c99",
+        "EIDE.ARM.Option.AutoGenerateRTE_Components": false,
+        "C_Cpp.errorSquiggles": "Disabled",
+        "files.associations": {
+            "*.ino": "cpp",
+            ".eideignore": "ignore",
+            "reg52.h": "c",
+            "REG52.H": "cpp",
+            "delay.h": "c"
+        },
+        "C_Cpp.default.configurationProvider": "cl.eide",
+        "[yaml]": {
+            "editor.insertSpaces": true,
+            "editor.tabSize": 4,
+            "editor.autoIndent": "advanced"
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "cl.eide",
+            "keroc.hex-fmt",
+            "xiaoyongdong.srecord",
+            "hars.cppsnippets",
+            "zixuanwang.linkerscript",
+            "redhat.vscode-yaml",
+            "cl.stm8-debug"
+        ]
+    },
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": []
+    }
+}

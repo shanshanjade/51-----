@@ -1,0 +1,1463 @@
+[2022-04-08 21:35:12]	[done]
+	build successfully !
+
+[2022-04-08 22:02:45]	[done]
+	build successfully !
+
+[2022-04-08 22:03:16]	[done]
+	build successfully !
+
+[2022-04-08 22:05:11]	[done]
+	build successfully !
+
+[2022-04-08 22:07:27]	[done]
+	build successfully !
+
+[2022-04-08 22:40:30]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\LCD1602.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** WARNING C318 IN LINE 1 OF .\SRC\LCD1602.C: can't open file 'REGX52.H'
+*** ERROR C202 IN LINE 4 OF .\SRC\LCD1602.C: 'P2': undefined identifier
+*** ERROR C202 IN LINE 5 OF .\SRC\LCD1602.C: 'P2': undefined identifier
+*** ERROR C202 IN LINE 6 OF .\SRC\LCD1602.C: 'P2': undefined identifier
+*** ERROR C202 IN LINE 34 OF .\SRC\LCD1602.C: 'LCD_RS': undefined identifier
+*** ERROR C202 IN LINE 35 OF .\SRC\LCD1602.C: 'LCD_RW': undefined identifier
+*** ERROR C202 IN LINE 36 OF .\SRC\LCD1602.C: 'P0': undefined identifier
+*** ERROR C202 IN LINE 37 OF .\SRC\LCD1602.C: 'LCD_EN': undefined identifier
+*** ERROR C202 IN LINE 39 OF .\SRC\LCD1602.C: 'LCD_EN': undefined identifier
+*** ERROR C202 IN LINE 50 OF .\SRC\LCD1602.C: 'LCD_RS': undefined identifier
+*** ERROR C202 IN LINE 51 OF .\SRC\LCD1602.C: 'LCD_RW': undefined identifier
+*** ERROR C202 IN LINE 52 OF .\SRC\LCD1602.C: 'P0': undefined identifier
+*** ERROR C202 IN LINE 53 OF .\SRC\LCD1602.C: 'LCD_EN': undefined identifier
+*** ERROR C202 IN LINE 55 OF .\SRC\LCD1602.C: 'LCD_EN': undefined identifier
+C51 COMPILATION COMPLETE.  1 WARNING(S),  13 ERROR(S)
+
+[2022-04-08 22:40:34]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\LCD1602.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** WARNING C318 IN LINE 1 OF .\SRC\LCD1602.C: can't open file 'REGX52.H'
+*** ERROR C202 IN LINE 4 OF .\SRC\LCD1602.C: 'P2': undefined identifier
+*** ERROR C202 IN LINE 5 OF .\SRC\LCD1602.C: 'P2': undefined identifier
+*** ERROR C202 IN LINE 6 OF .\SRC\LCD1602.C: 'P2': undefined identifier
+*** ERROR C202 IN LINE 34 OF .\SRC\LCD1602.C: 'LCD_RS': undefined identifier
+*** ERROR C202 IN LINE 35 OF .\SRC\LCD1602.C: 'LCD_RW': undefined identifier
+*** ERROR C202 IN LINE 36 OF .\SRC\LCD1602.C: 'P0': undefined identifier
+*** ERROR C202 IN LINE 37 OF .\SRC\LCD1602.C: 'LCD_EN': undefined identifier
+*** ERROR C202 IN LINE 39 OF .\SRC\LCD1602.C: 'LCD_EN': undefined identifier
+*** ERROR C202 IN LINE 50 OF .\SRC\LCD1602.C: 'LCD_RS': undefined identifier
+*** ERROR C202 IN LINE 51 OF .\SRC\LCD1602.C: 'LCD_RW': undefined identifier
+*** ERROR C202 IN LINE 52 OF .\SRC\LCD1602.C: 'P0': undefined identifier
+*** ERROR C202 IN LINE 53 OF .\SRC\LCD1602.C: 'LCD_EN': undefined identifier
+*** ERROR C202 IN LINE 55 OF .\SRC\LCD1602.C: 'LCD_EN': undefined identifier
+C51 COMPILATION COMPLETE.  1 WARNING(S),  13 ERROR(S)
+
+[2022-04-08 22:41:51]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\LCD1602.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** WARNING C318 IN LINE 1 OF .\SRC\LCD1602.C: can't open file 'REGX52.H'
+*** ERROR C202 IN LINE 4 OF .\SRC\LCD1602.C: 'P2': undefined identifier
+*** ERROR C202 IN LINE 5 OF .\SRC\LCD1602.C: 'P2': undefined identifier
+*** ERROR C202 IN LINE 6 OF .\SRC\LCD1602.C: 'P2': undefined identifier
+*** ERROR C202 IN LINE 34 OF .\SRC\LCD1602.C: 'LCD_RS': undefined identifier
+*** ERROR C202 IN LINE 35 OF .\SRC\LCD1602.C: 'LCD_RW': undefined identifier
+*** ERROR C202 IN LINE 36 OF .\SRC\LCD1602.C: 'P0': undefined identifier
+*** ERROR C202 IN LINE 37 OF .\SRC\LCD1602.C: 'LCD_EN': undefined identifier
+*** ERROR C202 IN LINE 39 OF .\SRC\LCD1602.C: 'LCD_EN': undefined identifier
+*** ERROR C202 IN LINE 50 OF .\SRC\LCD1602.C: 'LCD_RS': undefined identifier
+*** ERROR C202 IN LINE 51 OF .\SRC\LCD1602.C: 'LCD_RW': undefined identifier
+*** ERROR C202 IN LINE 52 OF .\SRC\LCD1602.C: 'P0': undefined identifier
+*** ERROR C202 IN LINE 53 OF .\SRC\LCD1602.C: 'LCD_EN': undefined identifier
+*** ERROR C202 IN LINE 55 OF .\SRC\LCD1602.C: 'LCD_EN': undefined identifier
+C51 COMPILATION COMPLETE.  1 WARNING(S),  13 ERROR(S)
+
+[2022-04-08 22:42:11]	[done]
+	build successfully !
+
+[2022-04-08 22:51:06]	[done]
+	build successfully !
+
+[2022-04-08 22:58:23]	[done]
+	build successfully !
+
+[2022-04-08 23:08:53]	[done]
+	build successfully !
+
+[2022-04-09 09:59:07]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\LCD1602.o,.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100018AH
+Program Size: data=22.0 xdata=0 const=13 code=627
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-09 09:59:34]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\LCD1602.o,.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100018AH
+Program Size: data=22.0 xdata=0 const=13 code=627
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-09 10:00:12]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\LCD1602.o,.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100018AH
+Program Size: data=22.0 xdata=0 const=13 code=627
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-09 10:01:18]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\LCD1602.o,.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100018AH
+Program Size: data=22.0 xdata=0 const=13 code=627
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-09 10:01:21]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\LCD1602.o,.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100018AH
+Program Size: data=22.0 xdata=0 const=13 code=627
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-09 10:03:02]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\LCD1602.o,.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100018AH
+Program Size: data=22.0 xdata=0 const=13 code=627
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-09 10:03:09]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** WARNING C206 IN LINE 26 OF .\SRC\MAIN.C: 'delay': missing function-prototype
+*** ERROR C267 IN LINE 26 OF .\SRC\MAIN.C: 'delay': requires ANSI-style prototype
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2022-04-09 10:03:32]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\LCD1602.o,.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100018AH
+Program Size: data=22.0 xdata=0 const=13 code=627
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-09 10:08:12]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\LCD1602.o,.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100018AH
+Program Size: data=22.0 xdata=0 const=13 code=627
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-09 10:08:49]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\LCD1602.o,.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100018AH
+Program Size: data=22.0 xdata=0 const=13 code=627
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-09 10:10:02]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\LCD1602.o,.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100018AH
+Program Size: data=22.0 xdata=0 const=13 code=627
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-09 10:15:52]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\LCD1602.o,.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100018AH
+Program Size: data=22.0 xdata=0 const=13 code=627
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-09 10:19:00]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\LCD1602.o,.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100018AH
+Program Size: data=22.0 xdata=0 const=13 code=627
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-09 10:19:53]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\LCD1602.o,.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100018AH
+Program Size: data=22.0 xdata=0 const=13 code=627
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-09 10:21:42]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\LCD1602.o,.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100018AH
+Program Size: data=22.0 xdata=0 const=13 code=627
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-09 10:22:29]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\LCD1602.o,.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100018AH
+Program Size: data=22.0 xdata=0 const=13 code=627
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-09 10:23:06]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\LCD1602.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+.\src\LCD1602.c:1:19: fatal error: REG52.h: No such file or directory
+compilation terminated.
+.\src\LCD1602.c:1: warning 190: ISO C forbids an empty source file
+
+[2022-04-09 10:25:32]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\LCD1602.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+./../../../../../Keil_v5/C51/INC/REG52.h:13: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:13: syntax error: token -> 'P0' ; column 6
+./../../../../../Keil_v5/C51/INC/REG52.h:14: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:15: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:16: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:17: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:18: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:19: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:20: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:21: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:22: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:23: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:24: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:25: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:26: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:27: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:28: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:29: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:30: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:31: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:32: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:33: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:36: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:37: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:38: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:39: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:40: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:45: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:46: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:47: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:48: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:49: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:50: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:51: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:54: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:55: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:56: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:57: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:58: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:59: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:60: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:61: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:64: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:65: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:66: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:67: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:68: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:69: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:70: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:73: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:74: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:75: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:76: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:77: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:78: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:81: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:82: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:83: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:84: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:85: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:86: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:87: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:88: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:91: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:92: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:93: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:94: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:95: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:96: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:97: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:98: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:101: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:102: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:105: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:106: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:107: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:108: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:109: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:110: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:111: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:112: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:114: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:115: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:116: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:117: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:118: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:119: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:120: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:121: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:124: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:125: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:126: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:127: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:128: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:129: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:130: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:131: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:134: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:135: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:136: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:137: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:138: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:139: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:140: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:141: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:144: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:145: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:146: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:147: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:148: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:149: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:150: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:151: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:4: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:5: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:6: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:34: error 20: Undefined identifier 'LCD_RS'
+.\src\LCD1602.c:35: error 20: Undefined identifier 'LCD_RW'
+.\src\LCD1602.c:36: error 20: Undefined identifier 'P0'
+.\src\LCD1602.c:37: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:39: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:50: error 20: Undefined identifier 'LCD_RS'
+.\src\LCD1602.c:51: error 20: Undefined identifier 'LCD_RW'
+.\src\LCD1602.c:52: error 20: Undefined identifier 'P0'
+.\src\LCD1602.c:53: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:55: error 20: Undefined identifier 'LCD_EN'
+
+[2022-04-09 10:26:24]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\LCD1602.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+./../../../../../Keil_v5/C51/INC/REG52.h:13: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:13: syntax error: token -> 'P0' ; column 6
+./../../../../../Keil_v5/C51/INC/REG52.h:14: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:15: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:16: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:17: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:18: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:19: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:20: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:21: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:22: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:23: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:24: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:25: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:26: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:27: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:28: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:29: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:30: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:31: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:32: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:33: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:36: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:37: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:38: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:39: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:40: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:45: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:46: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:47: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:48: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:49: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:50: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:51: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:54: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:55: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:56: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:57: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:58: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:59: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:60: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:61: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:64: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:65: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:66: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:67: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:68: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:69: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:70: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:73: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:74: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:75: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:76: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:77: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:78: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:81: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:82: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:83: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:84: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:85: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:86: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:87: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:88: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:91: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:92: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:93: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:94: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:95: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:96: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:97: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:98: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:101: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:102: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:105: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:106: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:107: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:108: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:109: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:110: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:111: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:112: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:114: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:115: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:116: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:117: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:118: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:119: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:120: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:121: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:124: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:125: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:126: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:127: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:128: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:129: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:130: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:131: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:134: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:135: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:136: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:137: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:138: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:139: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:140: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:141: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:144: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:145: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:146: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:147: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:148: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:149: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:150: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:151: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:4: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:5: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:6: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:34: error 20: Undefined identifier 'LCD_RS'
+.\src\LCD1602.c:35: error 20: Undefined identifier 'LCD_RW'
+.\src\LCD1602.c:36: error 20: Undefined identifier 'P0'
+.\src\LCD1602.c:37: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:39: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:50: error 20: Undefined identifier 'LCD_RS'
+.\src\LCD1602.c:51: error 20: Undefined identifier 'LCD_RW'
+.\src\LCD1602.c:52: error 20: Undefined identifier 'P0'
+.\src\LCD1602.c:53: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:55: error 20: Undefined identifier 'LCD_EN'
+
+[2022-04-09 10:26:51]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** WARNING C318 IN LINE 2 OF .\SRC\MAIN.C: can't open file 'delay.h'
+*** WARNING C206 IN LINE 26 OF .\SRC\MAIN.C: 'delay': missing function-prototype
+*** ERROR C267 IN LINE 26 OF .\SRC\MAIN.C: 'delay': requires ANSI-style prototype
+C51 COMPILATION COMPLETE.  2 WARNING(S),  1 ERROR(S)
+
+[2022-04-09 10:27:47]	[done]
+	build successfully !
+
+[2022-04-09 10:30:00]	[done]
+	build successfully !
+
+[2022-04-09 10:30:41]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LCD_Init
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCD_ShowString
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 10000F6H
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LCD_Init
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 10000FDH
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCD_ShowString
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100010AH
+Program Size: data=19.0 xdata=0 const=13 code=339
+LX51 RUN COMPLETE.  0 WARNING(S),  6 ERROR(S)
+
+
+[2022-04-09 10:34:45]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LCD_Init
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCD_ShowString
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LCD_Init
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 10000FDH
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCD_ShowString
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100010AH
+Program Size: data=19.0 xdata=0 const=13 code=371
+LX51 RUN COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+
+[2022-04-09 10:36:51]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LCD_Init
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCD_ShowString
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 10000F6H
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LCD_Init
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 10000FDH
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCD_ShowString
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100010AH
+Program Size: data=19.0 xdata=0 const=13 code=339
+LX51 RUN COMPLETE.  0 WARNING(S),  6 ERROR(S)
+
+
+[2022-04-09 10:38:31]	[done]
+	build successfully !
+
+[2022-04-09 10:46:11]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LCD_Init
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCD_ShowString
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LCD_Init
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 10000FDH
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCD_ShowString
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+    ADDRESS: 100010AH
+Program Size: data=19.0 xdata=0 const=13 code=371
+LX51 RUN COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+
+[2022-04-09 10:54:39]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\delay.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C237 IN LINE 23 OF .\SRC\DELAY.C: '_delay': function already has a body
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2022-04-09 10:55:25]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+LX51 LINKER/LOCATER V4.66.97.0 - SN: K1DZC-UVG34C
+COPYRIGHT ARM Germany GmbH 1995 - 2019
+@c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\build\Release\4-2动态数码管显示.lnp 
+.\build\Release\src\LCD1602.o,.\build\Release\src\delay.o,.\build\Release\src\main.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _delay
+    MODULE:  .\BUILD\RELEASE\SRC\MAIN.O (MAIN)
+   DEFINED:  .\BUILD\RELEASE\SRC\DELAY.O (DELAY)
+Program Size: data=22.0 xdata=0 const=13 code=659
+LX51 RUN COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+
+[2022-04-09 10:55:54]	[done]
+	build successfully !
+
+[2022-04-09 10:56:08]	[done]
+	build successfully !
+
+[2022-04-09 11:01:25]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 3 OF .\SRC\nixieTube.h: syntax error near 'pos', expected ')'
+*** ERROR C208 IN LINE 17 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 18 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 19 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 20 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 21 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 22 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 23 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 24 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+C51 COMPILATION COMPLETE.  0 WARNING(S),  9 ERROR(S)
+
+[2022-04-09 11:02:04]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 3 OF .\SRC\nixieTube.h: syntax error near 'pos', expected ')'
+*** ERROR C208 IN LINE 17 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 18 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 19 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 20 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 21 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 22 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 23 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 24 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+C51 COMPILATION COMPLETE.  0 WARNING(S),  9 ERROR(S)
+
+[2022-04-09 11:02:49]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 3 OF .\SRC\nixieTube.h: syntax error near 'pos', expected ')'
+*** ERROR C208 IN LINE 17 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 18 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 19 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 20 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 21 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 22 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 23 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 24 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+C51 COMPILATION COMPLETE.  0 WARNING(S),  9 ERROR(S)
+
+[2022-04-09 11:03:37]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 3 OF .\SRC\nixieTube.h: syntax error near 'pos', expected ')'
+*** ERROR C208 IN LINE 17 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 18 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 19 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 20 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 21 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 22 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 23 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+*** ERROR C208 IN LINE 24 OF .\SRC\MAIN.C: '_nixieTube': too many actual parameters
+C51 COMPILATION COMPLETE.  0 WARNING(S),  9 ERROR(S)
+
+[2022-04-09 11:04:24]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\nixieTube.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <5ad0758a213a4017a4a43a71c811e836>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C129 IN LINE 5 OF .\SRC\NIXIETUBE.C: missing ';' before 'nixieTubeTable'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2022-04-09 11:04:57]	[done]
+	build successfully !
+
+[2022-04-11 22:56:47]	[done]
+	build successfully !
+
+[2022-04-11 23:10:42]	[done]
+	build successfully !
+
+[2022-04-12 00:03:34]	[done]
+	build successfully !
+
+[2022-04-12 00:29:32]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\LCD1602.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+.\src\LCD1602.c:1:19: fatal error: REG52.h: No such file or directory
+compilation terminated.
+.\src\LCD1602.c:1: warning 190: ISO C forbids an empty source file
+
+[2022-04-12 00:29:58]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 5 OF .\SRC\MAIN.C: syntax error near '`', expected 'hdata'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2022-04-12 00:30:20]	[done]
+	build successfully !
+
+[2022-04-12 00:30:46]	[done]
+	build successfully !
+
+[2022-04-12 00:31:17]	[done]
+	build successfully !
+
+[2022-04-12 00:33:04]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\LCD1602.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+.\src\LCD1602.c:1:19: fatal error: REG52.h: No such file or directory
+compilation terminated.
+.\src\LCD1602.c:1: warning 190: ISO C forbids an empty source file
+
+[2022-04-12 00:34:04]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\LCD1602.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+./../../../../../Keil_v5/C51/INC/REG52.h:13: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:13: syntax error: token -> 'P0' ; column 6
+./../../../../../Keil_v5/C51/INC/REG52.h:14: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:15: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:16: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:17: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:18: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:19: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:20: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:21: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:22: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:23: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:24: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:25: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:26: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:27: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:28: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:29: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:30: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:31: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:32: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:33: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:36: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:37: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:38: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:39: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:40: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:45: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:46: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:47: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:48: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:49: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:50: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:51: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:54: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:55: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:56: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:57: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:58: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:59: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:60: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:61: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:64: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:65: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:66: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:67: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:68: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:69: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:70: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:73: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:74: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:75: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:76: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:77: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:78: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:81: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:82: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:83: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:84: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:85: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:86: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:87: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:88: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:91: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:92: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:93: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:94: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:95: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:96: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:97: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:98: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:101: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:102: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:105: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:106: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:107: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:108: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:109: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:110: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:111: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:112: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:114: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:115: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:116: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:117: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:118: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:119: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:120: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:121: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:124: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:125: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:126: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:127: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:128: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:129: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:130: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:131: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:134: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:135: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:136: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:137: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:138: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:139: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:140: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:141: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:144: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:145: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:146: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:147: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:148: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:149: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:150: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:151: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:4: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:4: syntax error: token -> 'LCD_RS' ; column 11
+.\src\LCD1602.c:5: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:6: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:34: error 20: Undefined identifier 'LCD_RS'
+.\src\LCD1602.c:35: error 20: Undefined identifier 'LCD_RW'
+.\src\LCD1602.c:36: error 20: Undefined identifier 'P0'
+.\src\LCD1602.c:37: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:39: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:50: error 20: Undefined identifier 'LCD_RS'
+.\src\LCD1602.c:51: error 20: Undefined identifier 'LCD_RW'
+.\src\LCD1602.c:52: error 20: Undefined identifier 'P0'
+.\src\LCD1602.c:53: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:55: error 20: Undefined identifier 'LCD_EN'
+
+[2022-04-12 00:34:40]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\LCD1602.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+./../../../../../Keil_v5/C51/INC/REG52.h:13: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:13: syntax error: token -> 'P0' ; column 6
+./../../../../../Keil_v5/C51/INC/REG52.h:14: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:15: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:16: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:17: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:18: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:19: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:20: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:21: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:22: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:23: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:24: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:25: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:26: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:27: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:28: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:29: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:30: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:31: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:32: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:33: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:36: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:37: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:38: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:39: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:40: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:45: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:46: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:47: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:48: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:49: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:50: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:51: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:54: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:55: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:56: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:57: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:58: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:59: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:60: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:61: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:64: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:65: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:66: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:67: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:68: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:69: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:70: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:73: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:74: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:75: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:76: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:77: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:78: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:81: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:82: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:83: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:84: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:85: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:86: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:87: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:88: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:91: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:92: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:93: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:94: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:95: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:96: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:97: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:98: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:101: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:102: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:105: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:106: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:107: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:108: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:109: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:110: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:111: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:112: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:114: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:115: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:116: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:117: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:118: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:119: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:120: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:121: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:124: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:125: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:126: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:127: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:128: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:129: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:130: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:131: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:134: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:135: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:136: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:137: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:138: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:139: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:140: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:141: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:144: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:145: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:146: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:147: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:148: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:149: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:150: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:151: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:4: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:4: syntax error: token -> 'LCD_RS' ; column 11
+.\src\LCD1602.c:5: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:6: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:34: error 20: Undefined identifier 'LCD_RS'
+.\src\LCD1602.c:35: error 20: Undefined identifier 'LCD_RW'
+.\src\LCD1602.c:36: error 20: Undefined identifier 'P0'
+.\src\LCD1602.c:37: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:39: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:50: error 20: Undefined identifier 'LCD_RS'
+.\src\LCD1602.c:51: error 20: Undefined identifier 'LCD_RW'
+.\src\LCD1602.c:52: error 20: Undefined identifier 'P0'
+.\src\LCD1602.c:53: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:55: error 20: Undefined identifier 'LCD_EN'
+
+[2022-04-12 00:35:35]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\LCD1602.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+./../../../../../Keil_v5/C51/INC/REG52.h:13: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:13: syntax error: token -> 'P0' ; column 6
+./../../../../../Keil_v5/C51/INC/REG52.h:14: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:15: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:16: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:17: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:18: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:19: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:20: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:21: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:22: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:23: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:24: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:25: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:26: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:27: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:28: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:29: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:30: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:31: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:32: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:33: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:36: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:37: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:38: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:39: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:40: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:45: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:46: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:47: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:48: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:49: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:50: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:51: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:54: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:55: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:56: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:57: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:58: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:59: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:60: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:61: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:64: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:65: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:66: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:67: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:68: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:69: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:70: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:73: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:74: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:75: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:76: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:77: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:78: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:81: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:82: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:83: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:84: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:85: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:86: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:87: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:88: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:91: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:92: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:93: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:94: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:95: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:96: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:97: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:98: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:101: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:102: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:105: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:106: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:107: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:108: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:109: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:110: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:111: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:112: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:114: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:115: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:116: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:117: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:118: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:119: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:120: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:121: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:124: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:125: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:126: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:127: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:128: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:129: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:130: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:131: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:134: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:135: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:136: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:137: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:138: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:139: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:140: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:141: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:144: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:145: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:146: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:147: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:148: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:149: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:150: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:151: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:4: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:4: syntax error: token -> 'LCD_RS' ; column 11
+.\src\LCD1602.c:5: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:6: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:34: error 20: Undefined identifier 'LCD_RS'
+.\src\LCD1602.c:35: error 20: Undefined identifier 'LCD_RW'
+.\src\LCD1602.c:36: error 20: Undefined identifier 'P0'
+.\src\LCD1602.c:37: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:39: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:50: error 20: Undefined identifier 'LCD_RS'
+.\src\LCD1602.c:51: error 20: Undefined identifier 'LCD_RW'
+.\src\LCD1602.c:52: error 20: Undefined identifier 'P0'
+.\src\LCD1602.c:53: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:55: error 20: Undefined identifier 'LCD_EN'
+
+[2022-04-12 10:28:06]	[done]
+	build successfully !
+
+[2022-04-13 15:15:53]	[done]
+	build successfully !
+
+[2022-04-13 15:43:48]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\4-2动态数码管显示\src\LCD1602.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+./../../../../../Keil_v5/C51/INC/REG52.h:13: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:13: syntax error: token -> 'P0' ; column 6
+./../../../../../Keil_v5/C51/INC/REG52.h:14: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:15: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:16: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:17: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:18: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:19: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:20: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:21: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:22: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:23: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:24: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:25: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:26: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:27: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:28: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:29: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:30: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:31: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:32: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:33: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:36: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:37: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:38: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:39: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:40: error 1: Syntax error, declaration ignored at 'sfr'
+./../../../../../Keil_v5/C51/INC/REG52.h:45: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:46: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:47: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:48: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:49: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:50: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:51: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:54: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:55: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:56: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:57: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:58: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:59: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:60: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:61: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:64: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:65: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:66: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:67: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:68: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:69: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:70: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:73: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:74: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:75: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:76: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:77: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:78: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:81: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:82: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:83: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:84: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:85: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:86: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:87: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:88: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:91: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:92: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:93: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:94: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:95: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:96: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:97: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:98: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:101: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:102: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:105: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:106: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:107: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:108: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:109: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:110: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:111: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:112: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:114: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:115: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:116: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:117: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:118: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:119: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:120: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:121: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:124: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:125: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:126: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:127: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:128: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:129: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:130: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:131: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:134: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:135: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:136: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:137: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:138: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:139: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:140: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:141: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:144: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:145: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:146: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:147: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:148: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:149: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:150: error 1: Syntax error, declaration ignored at 'sbit'
+./../../../../../Keil_v5/C51/INC/REG52.h:151: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:4: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:4: syntax error: token -> 'LCD_RS' ; column 11
+.\src\LCD1602.c:5: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:6: error 1: Syntax error, declaration ignored at 'sbit'
+.\src\LCD1602.c:34: error 20: Undefined identifier 'LCD_RS'
+.\src\LCD1602.c:35: error 20: Undefined identifier 'LCD_RW'
+.\src\LCD1602.c:36: error 20: Undefined identifier 'P0'
+.\src\LCD1602.c:37: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:39: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:50: error 20: Undefined identifier 'LCD_RS'
+.\src\LCD1602.c:51: error 20: Undefined identifier 'LCD_RW'
+.\src\LCD1602.c:52: error 20: Undefined identifier 'P0'
+.\src\LCD1602.c:53: error 20: Undefined identifier 'LCD_EN'
+.\src\LCD1602.c:55: error 20: Undefined identifier 'LCD_EN'
+

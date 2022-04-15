@@ -1,0 +1,3 @@
+
+.\build\Release\src\delay.o,.\build\Release\src\main.o TO .\build\Release\1-4按键控制led移位
+PRINT(.\build\Release\1-4按键控制led移位.map) REMOVEUNUSED

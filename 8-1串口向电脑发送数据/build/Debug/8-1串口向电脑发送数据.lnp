@@ -1,0 +1,3 @@
+
+.\build\Debug\__\include\LCD1602.o,.\build\Debug\__\include\Timer0.o,.\build\Debug\__\include\delay.o,.\build\Debug\__\include\key.o,.\build\Debug\__\include\matrixKey.o,.\build\Debug\__\include\nixieTube.o,.\build\Debug\__\include\uart.o,.\build\Debug\src\main.o TO .\build\Debug\8-1串口向电脑发送数据
+PRINT(.\build\Debug\8-1串口向电脑发送数据.map) REMOVEUNUSED

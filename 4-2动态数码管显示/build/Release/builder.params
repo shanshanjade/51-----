@@ -1,0 +1,59 @@
+{
+    "name": "4-2动态数码管显示",
+    "target": "Release",
+    "toolchain": "SDCC",
+    "showRepathOnLog": true,
+    "threadNum": 10,
+    "rootDir": "c:\\Users\\Administrator\\Desktop\\51单片机学习\\4-2动态数码管显示",
+    "dumpPath": ".eide\\log",
+    "outDir": "build\\Release",
+    "incDirs": [
+        "../include",
+        "../../../../../Keil_v5/C51/INC",
+        "../../../../../Keil_v5/C51/ISD51",
+        "src"
+    ],
+    "libDirs": [
+        "../include",
+        "../../../../../Keil_v5/C51/LIB"
+    ],
+    "defines": [],
+    "sourceList": [
+        "src/LCD1602.c",
+        "src/delay.c",
+        "src/main.c",
+        "src/nixieTube.c"
+    ],
+    "sourceParams": {},
+    "sourceParamsMtime": 1649424910203.21,
+    "options": {
+        "version": 3,
+        "beforeBuildTasks": [],
+        "afterBuildTasks": [],
+        "global": {
+            "device": "mcs51",
+            "optimize-type": "speed",
+            "use-non-free": false
+        },
+        "c/cpp-compiler": {
+            "language-c": "c99"
+        },
+        "asm-compiler": {
+            "$toolName": "sdas8051"
+        },
+        "linker": {
+            "$mainFileName": "main",
+            "output-format": "hex"
+        }
+    },
+    "env": {},
+    "sha": {
+        "c/cpp-defines": "d751713988987e9331980363e24189ce",
+        "beforeBuildTasks": "d751713988987e9331980363e24189ce",
+        "afterBuildTasks": "d751713988987e9331980363e24189ce",
+        "global": "07ca66d79b647288c16176df702dc974",
+        "c/cpp-compiler": "da5f97a8ee5c67c063f7044c46878c2c",
+        "asm-compiler": "ed0cbf2f00f079904d4f634eb986c327",
+        "linker": "d9e14929ad9416d382e45b49ec9fbdcf"
+    }
+}

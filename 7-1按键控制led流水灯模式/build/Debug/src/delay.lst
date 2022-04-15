@@ -1,0 +1,110 @@
+C51 COMPILER V9.60.0.0   DELAY                                                             04/13/2022 23:33:04 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE DELAY
+OBJECT MODULE PLACED IN .\build\Debug\src\delay.o
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.exe .\SRC\DELAY.C PRINT(.\build\Debug\src\delay.lst) OMF2 TABS(4) CODE NOCON
+                    -D SYMBOLS OPTIMIZE(8,SPEED) SMALL ROM(LARGE) INCDIR(.\..\..\..\..\..\Keil_v5\C51\INC;.\src) DEFINE(__UVISION_VERSION=526
+                    -) OBJECT(.\build\Debug\src\delay.o)
+
+line level    source
+
+   1          #include "delay.h"
+   2          // void delay(unsigned int n)  //@12.000MHz
+   3          // {
+   4          //     unsigned char i, j, k;
+   5          //     i = 2;
+   6          //     j = 239;
+   7          //     k = 0;
+   8          //     for (k = 0; k < n; k++) {
+   9          //         do {
+  10          //             while (--j)
+  11          //                 ;
+  12          //         } while (--i);
+  13          //     }
+  14          // }
+  15          void delay(unsigned int n)  //@12.000MHz
+  16          {
+  17   1          int i,j;
+  18   1          for (i = 0; i < n; i++) {
+  19   2              for (j = 0; j < 120; j++) {
+  20   3                  /* code */
+  21   3              }
+  22   2          }
+  23   1      }
+C51 COMPILER V9.60.0.0   DELAY                                                             04/13/2022 23:33:04 PAGE 2   
+
+ASSEMBLY LISTING OF GENERATED OBJECT CODE
+
+
+             ; FUNCTION _delay (BEGIN)
+                                           ; SOURCE LINE # 15
+;---- Variable 'n' assigned to Register 'R6/R7' ----
+                                           ; SOURCE LINE # 16
+                                           ; SOURCE LINE # 18
+;---- Variable 'i' assigned to Register 'R4/R5' ----
+0000 E4                CLR     A
+0001 FD                MOV     R5,A
+0002 FC                MOV     R4,A
+0003         ?C0001:
+0003 C3                CLR     C
+0004 ED                MOV     A,R5
+0005 9F                SUBB    A,R7
+0006 EC                MOV     A,R4
+0007 9E                SUBB    A,R6
+0008 5015              JNC     ?C0007
+                                           ; SOURCE LINE # 19
+;---- Variable 'j' assigned to Register 'R2/R3' ----
+000A E4                CLR     A
+000B FB                MOV     R3,A
+000C FA                MOV     R2,A
+000D         ?C0004:
+                                           ; SOURCE LINE # 21
+000D 0B                INC     R3
+000E BB0001            CJNE    R3,#00H,?C0008
+0011 0A                INC     R2
+0012         ?C0008:
+0012 EB                MOV     A,R3
+0013 6478              XRL     A,#078H
+0015 4A                ORL     A,R2
+0016 70F5              JNZ     ?C0004
+                                           ; SOURCE LINE # 22
+0018         ?C0003:
+0018 0D                INC     R5
+0019 BD0001            CJNE    R5,#00H,?C0009
+001C 0C                INC     R4
+001D         ?C0009:
+001D 80E4              SJMP    ?C0001
+                                           ; SOURCE LINE # 23
+001F         ?C0007:
+001F 22                RET     
+             ; FUNCTION _delay (END)
+
+C51 COMPILER V9.60.0.0   DELAY                                                             04/13/2022 23:33:04 PAGE 3   
+
+NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
+====                                    =====   ======  ====    ======  ====
+
+
+_delay . . . . . . . . . . . . . . . .  PUBLIC   CODE   PROC     0000H  -----
+  n. . . . . . . . . . . . . . . . . .  * REG *  DATA   U_INT    0006H  2
+  i. . . . . . . . . . . . . . . . . .  * REG *  DATA   INT      0004H  2
+  j. . . . . . . . . . . . . . . . . .  * REG *  DATA   INT      0002H  2
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     32    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

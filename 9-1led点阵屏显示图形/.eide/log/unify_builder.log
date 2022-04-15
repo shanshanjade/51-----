@@ -1,0 +1,208 @@
+[2022-04-14 14:29:50]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\9-1led点阵屏显示图形\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** WARNING C275 IN LINE 9 OF .\SRC\MAIN.C: expression with possibly no effect
+*** ERROR C141 IN LINE 9 OF .\SRC\MAIN.C: syntax error near '=', expected '__asm'
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2022-04-14 14:30:55]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\9-1led点阵屏显示图形\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** WARNING C275 IN LINE 9 OF .\SRC\MAIN.C: expression with possibly no effect
+*** ERROR C141 IN LINE 9 OF .\SRC\MAIN.C: syntax error near '=', expected '__asm'
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2022-04-14 14:31:39]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\9-1led点阵屏显示图形\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C146 IN LINE 4 OF .\SRC\MAIN.C: 'P34': invalid base address
+*** ERROR C146 IN LINE 5 OF .\SRC\MAIN.C: 'P36': invalid base address
+*** ERROR C231 IN LINE 6 OF .\SRC\MAIN.C: 'RCLK': redefinition
+*** ERROR C202 IN LINE 9 OF .\SRC\MAIN.C: 'SER': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2022-04-14 14:32:29]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\9-1led点阵屏显示图形\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C146 IN LINE 4 OF .\SRC\MAIN.C: 'P34': invalid base address
+*** ERROR C146 IN LINE 5 OF .\SRC\MAIN.C: 'P36': invalid base address
+*** ERROR C231 IN LINE 6 OF .\SRC\MAIN.C: 'RCLK': redefinition
+*** ERROR C202 IN LINE 9 OF .\SRC\MAIN.C: 'SER': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2022-04-14 14:34:38]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\9-1led点阵屏显示图形\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** WARNING C275 IN LINE 13 OF .\SRC\MAIN.C: expression with possibly no effect
+*** ERROR C141 IN LINE 13 OF .\SRC\MAIN.C: syntax error near '=', expected '__asm'
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2022-04-14 14:35:20]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\9-1led点阵屏显示图形\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** WARNING C275 IN LINE 13 OF .\SRC\MAIN.C: expression with possibly no effect
+*** ERROR C141 IN LINE 13 OF .\SRC\MAIN.C: syntax error near '=', expected '__asm'
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2022-04-14 14:38:35]	[done]
+	build successfully !
+
+[2022-04-14 14:39:05]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\9-1led点阵屏显示图形\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C146 IN LINE 8 OF .\SRC\MAIN.C: 'P34': invalid base address
+*** ERROR C202 IN LINE 13 OF .\SRC\MAIN.C: 'SER_': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2022-04-14 14:39:54]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\9-1led点阵屏显示图形\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C202 IN LINE 8 OF .\SRC\MAIN.C: 'TF3': undefined identifier
+*** ERROR C202 IN LINE 13 OF .\SRC\MAIN.C: 'SER_': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2022-04-14 14:40:13]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\9-1led点阵屏显示图形\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C146 IN LINE 8 OF .\SRC\MAIN.C: 'TF2': invalid base address
+*** ERROR C202 IN LINE 13 OF .\SRC\MAIN.C: 'SER_': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2022-04-14 14:41:05]	[done]
+	build successfully !
+
+[2022-04-14 14:41:15]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\9-1led点阵屏显示图形\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** WARNING C275 IN LINE 13 OF .\SRC\MAIN.C: expression with possibly no effect
+*** ERROR C141 IN LINE 13 OF .\SRC\MAIN.C: syntax error near '=', expected '__asm'
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2022-04-14 14:42:41]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\9-1led点阵屏显示图形\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C231 IN LINE 6 OF .\SRC\MAIN.C: 'RCLK': redefinition
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2022-04-14 14:43:05]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\9-1led点阵屏显示图形\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C231 IN LINE 6 OF .\SRC\MAIN.C: 'RCLK': redefinition
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2022-04-14 14:43:38]	[done]
+	build successfully !
+
+[2022-04-14 14:47:36]	[done]
+	build successfully !
+
+[2022-04-14 14:49:06]	[done]
+	build successfully !
+
+[2022-04-14 14:54:31]	[done]
+	build successfully !
+
+[2022-04-14 14:55:17]	[done]
+	build successfully !
+
+[2022-04-14 14:57:16]	[done]
+	build successfully !
+
+[2022-04-14 14:57:51]	[done]
+	build successfully !
+
+[2022-04-14 15:00:04]	[done]
+	build successfully !
+
+[2022-04-14 15:00:31]	[done]
+	build successfully !
+
+[2022-04-14 15:01:09]	[done]
+	build successfully !
+
+[2022-04-14 15:01:41]	[done]
+	build successfully !
+
+[2022-04-14 15:02:12]	[done]
+	build successfully !
+
+[2022-04-14 15:02:38]	[done]
+	build successfully !
+
+[2022-04-14 15:03:53]	[done]
+	build successfully !
+
+[2022-04-14 15:05:00]	[done]
+	build successfully !
+
+[2022-04-14 15:10:33]	compilation failed at : "c:\Users\Administrator\Desktop\51单片机学习\9-1led点阵屏显示图形\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 29 OF .\SRC\MAIN.C: syntax error near 'while', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2022-04-14 15:10:44]	[done]
+	build successfully !
+
+[2022-04-14 15:11:29]	[done]
+	build successfully !
+
+[2022-04-14 15:11:42]	[done]
+	build successfully !
+
+[2022-04-14 15:12:29]	[done]
+	build successfully !
+
+[2022-04-14 15:13:27]	[done]
+	build successfully !
+
+[2022-04-14 15:14:09]	[done]
+	build successfully !
+
+[2022-04-14 15:14:30]	[done]
+	build successfully !
+
+[2022-04-14 15:16:53]	[done]
+	build successfully !
+
+[2022-04-14 15:17:32]	[done]
+	build successfully !
+
+[2022-04-14 17:28:25]	[done]
+	build successfully !
+
+[2022-04-14 17:32:56]	[done]
+	build successfully !
+
+[2022-04-14 17:33:36]	[done]
+	build successfully !
+
+[2022-04-14 17:38:36]	[done]
+	build successfully !
+
