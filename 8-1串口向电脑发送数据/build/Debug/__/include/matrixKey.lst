@@ -1,11 +1,11 @@
-C51 COMPILER V9.60.0.0   MATRIXKEY                                                         04/14/2022 22:08:24 PAGE 1   
+C51 COMPILER V9.01   MATRIXKEY                                                             04/16/2022 14:33:13 PAGE 1   
 
 
-C51 COMPILER V9.60.0.0, COMPILATION OF MODULE MATRIXKEY
+C51 COMPILER V9.01, COMPILATION OF MODULE MATRIXKEY
 OBJECT MODULE PLACED IN .\build\Debug\__\include\matrixKey.o
-COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.exe .\..\INCLUDE\MATRIXKEY.C PRINT(.\build\Debug\__\include\matrixKey.lst) O
-                    -MF2 TABS(4) CODE NOCOND SYMBOLS OPTIMIZE(8,SPEED) SMALL ROM(LARGE) INCDIR(.\..\..\..\..\..\Keil_v5\C51\INC;.\src;.\..\in
-                    -clude) DEFINE(__UVISION_VERSION=526) OBJECT(.\build\Debug\__\include\matrixKey.o)
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.exe .\..\INCLUDE\MATRIXKEY.C PRINT(.\build\Debug\__\include\matrixKey.lst) OMF2
+                    - TABS(4) CODE NOCOND SYMBOLS OPTIMIZE(8,SPEED) SMALL ROM(LARGE) INCDIR(.\..\..\..\..\..\Keil\C51\INC;.\src;.\..\include)
+                    - DEFINE(__UVISION_VERSION=526) OBJECT(.\build\Debug\__\include\matrixKey.o)
 
 line level    source
 
@@ -36,7 +36,7 @@ line level    source
   25   1          
   26   1          return keyNum;
   27   1      }
-C51 COMPILER V9.60.0.0   MATRIXKEY                                                         04/14/2022 22:08:24 PAGE 2   
+C51 COMPILER V9.01   MATRIXKEY                                                             04/16/2022 14:33:13 PAGE 2   
 
 ASSEMBLY LISTING OF GENERATED OBJECT CODE
 
@@ -56,6 +56,7 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 000E 120000      E     LCALL   _delay
 0011         ?C0002:
 0011 3097FD            JNB     P17,?C0002
+0014         ?C0003:
 0014 7F14              MOV     R7,#014H
 0016 7E00              MOV     R6,#00H
 0018 120000      E     LCALL   _delay
@@ -68,6 +69,7 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 0025 120000      E     LCALL   _delay
 0028         ?C0005:
 0028 3096FD            JNB     P16,?C0005
+002B         ?C0006:
 002B 7F14              MOV     R7,#014H
 002D 7E00              MOV     R6,#00H
 002F 120000      E     LCALL   _delay
@@ -80,6 +82,7 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 003C 120000      E     LCALL   _delay
 003F         ?C0008:
 003F 3095FD            JNB     P15,?C0008
+0042         ?C0009:
 0042 7F14              MOV     R7,#014H
 0044 7E00              MOV     R6,#00H
 0046 120000      E     LCALL   _delay
@@ -92,16 +95,17 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 0053 120000      E     LCALL   _delay
 0056         ?C0011:
 0056 3094FD            JNB     P14,?C0011
+0059         ?C0012:
 0059 7F14              MOV     R7,#014H
 005B 7E00              MOV     R6,#00H
 005D 120000      E     LCALL   _delay
 0060 75000D      R     MOV     keyNum,#0DH
+C51 COMPILER V9.01   MATRIXKEY                                                             04/16/2022 14:33:13 PAGE 3   
+
 0063         ?C0010:
                                            ; SOURCE LINE # 10
 0063 7590FF            MOV     P1,#0FFH
 0066 C292              CLR     P12
-C51 COMPILER V9.60.0.0   MATRIXKEY                                                         04/14/2022 22:08:24 PAGE 3   
-
                                            ; SOURCE LINE # 11
 0068 209714            JB      P17,?C0013
 006B 7F14              MOV     R7,#014H
@@ -109,6 +113,7 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 006F 120000      E     LCALL   _delay
 0072         ?C0014:
 0072 3097FD            JNB     P17,?C0014
+0075         ?C0015:
 0075 7F14              MOV     R7,#014H
 0077 7E00              MOV     R6,#00H
 0079 120000      E     LCALL   _delay
@@ -121,6 +126,7 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 0086 120000      E     LCALL   _delay
 0089         ?C0017:
 0089 3096FD            JNB     P16,?C0017
+008C         ?C0018:
 008C 7F14              MOV     R7,#014H
 008E 7E00              MOV     R6,#00H
 0090 120000      E     LCALL   _delay
@@ -133,6 +139,7 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 009D 120000      E     LCALL   _delay
 00A0         ?C0020:
 00A0 3095FD            JNB     P15,?C0020
+00A3         ?C0021:
 00A3 7F14              MOV     R7,#014H
 00A5 7E00              MOV     R6,#00H
 00A7 120000      E     LCALL   _delay
@@ -145,6 +152,7 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 00B4 120000      E     LCALL   _delay
 00B7         ?C0023:
 00B7 3094FD            JNB     P14,?C0023
+00BA         ?C0024:
 00BA 7F14              MOV     R7,#014H
 00BC 7E00              MOV     R6,#00H
 00BE 120000      E     LCALL   _delay
@@ -156,16 +164,17 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
                                            ; SOURCE LINE # 16
 00C9 209714            JB      P17,?C0025
 00CC 7F14              MOV     R7,#014H
+C51 COMPILER V9.01   MATRIXKEY                                                             04/16/2022 14:33:13 PAGE 4   
+
 00CE 7E00              MOV     R6,#00H
 00D0 120000      E     LCALL   _delay
 00D3         ?C0026:
 00D3 3097FD            JNB     P17,?C0026
+00D6         ?C0027:
 00D6 7F14              MOV     R7,#014H
 00D8 7E00              MOV     R6,#00H
 00DA 120000      E     LCALL   _delay
 00DD 750003      R     MOV     keyNum,#03H
-C51 COMPILER V9.60.0.0   MATRIXKEY                                                         04/14/2022 22:08:24 PAGE 4   
-
 00E0         ?C0025:
                                            ; SOURCE LINE # 17
 00E0 209614            JB      P16,?C0028
@@ -174,6 +183,7 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 00E7 120000      E     LCALL   _delay
 00EA         ?C0029:
 00EA 3096FD            JNB     P16,?C0029
+00ED         ?C0030:
 00ED 7F14              MOV     R7,#014H
 00EF 7E00              MOV     R6,#00H
 00F1 120000      E     LCALL   _delay
@@ -186,6 +196,7 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 00FE 120000      E     LCALL   _delay
 0101         ?C0032:
 0101 3095FD            JNB     P15,?C0032
+0104         ?C0033:
 0104 7F14              MOV     R7,#014H
 0106 7E00              MOV     R6,#00H
 0108 120000      E     LCALL   _delay
@@ -198,6 +209,7 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 0115 120000      E     LCALL   _delay
 0118         ?C0035:
 0118 3094FD            JNB     P14,?C0035
+011B         ?C0036:
 011B 7F14              MOV     R7,#014H
 011D 7E00              MOV     R6,#00H
 011F 120000      E     LCALL   _delay
@@ -213,8 +225,11 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 0131 120000      E     LCALL   _delay
 0134         ?C0038:
 0134 3097FD            JNB     P17,?C0038
+0137         ?C0039:
 0137 7F14              MOV     R7,#014H
 0139 7E00              MOV     R6,#00H
+C51 COMPILER V9.01   MATRIXKEY                                                             04/16/2022 14:33:13 PAGE 5   
+
 013B 120000      E     LCALL   _delay
 013E 750004      R     MOV     keyNum,#04H
 0141         ?C0037:
@@ -225,11 +240,10 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 0148 120000      E     LCALL   _delay
 014B         ?C0041:
 014B 3096FD            JNB     P16,?C0041
+014E         ?C0042:
 014E 7F14              MOV     R7,#014H
 0150 7E00              MOV     R6,#00H
 0152 120000      E     LCALL   _delay
-C51 COMPILER V9.60.0.0   MATRIXKEY                                                         04/14/2022 22:08:24 PAGE 5   
-
 0155 750008      R     MOV     keyNum,#08H
 0158         ?C0040:
                                            ; SOURCE LINE # 23
@@ -239,6 +253,7 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 015F 120000      E     LCALL   _delay
 0162         ?C0044:
 0162 3095FD            JNB     P15,?C0044
+0165         ?C0045:
 0165 7F14              MOV     R7,#014H
 0167 7E00              MOV     R6,#00H
 0169 120000      E     LCALL   _delay
@@ -251,6 +266,7 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 0176 120000      E     LCALL   _delay
 0179         ?C0047:
 0179 3094FD            JNB     P14,?C0047
+017C         ?C0048:
 017C 7F14              MOV     R7,#014H
 017E 7E00              MOV     R6,#00H
 0180 120000      E     LCALL   _delay
@@ -259,10 +275,11 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
                                            ; SOURCE LINE # 26
 0186 AF00        R     MOV     R7,keyNum
                                            ; SOURCE LINE # 27
+0188         ?C0049:
 0188 22                RET     
              ; FUNCTION MatrixKey (END)
 
-C51 COMPILER V9.60.0.0   MATRIXKEY                                                         04/14/2022 22:08:24 PAGE 6   
+C51 COMPILER V9.01   MATRIXKEY                                                             04/16/2022 14:33:13 PAGE 6   
 
 NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
 ====                                    =====   ======  ====    ======  ====
@@ -301,47 +318,47 @@ WR . . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B6H  1
 RCLK . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00CDH  1
 TCLK . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00CCH  1
 P00. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0080H  1
-P10. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0090H  1
 P01. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0081H  1
+P10. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0090H  1
 SBUF . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0099H  1
 PCON . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0087H  1
-P20. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A0H  1
-P11. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0091H  1
 P02. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0082H  1
-P30. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B0H  1
-P21. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A1H  1
-P12. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0092H  1
+P11. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0091H  1
+P20. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A0H  1
 P03. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0083H  1
-P31. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B1H  1
-P22. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A2H  1
-P13. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0093H  1
+P12. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0092H  1
+P21. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A1H  1
+P30. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B0H  1
 P04. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0084H  1
+P13. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0093H  1
+P22. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A2H  1
+P31. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B1H  1
 SCON . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0098H  1
-P32. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B2H  1
-P23. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A3H  1
-P14. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0094H  1
 P05. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0085H  1
+P14. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0094H  1
+P23. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A3H  1
+P32. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B2H  1
 TMOD . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0089H  1
 TCON . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0088H  1
-P33. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B3H  1
-P24. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A4H  1
-C51 COMPILER V9.60.0.0   MATRIXKEY                                                         04/14/2022 22:08:24 PAGE 7   
+P06. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0086H  1
+P15. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0095H  1
+C51 COMPILER V9.01   MATRIXKEY                                                             04/16/2022 14:33:13 PAGE 7   
 
 NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
 ====                                    =====   ======  ====    ======  ====
 
 
-P15. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0095H  1
-P06. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0086H  1
-P34. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B4H  1
-P25. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A5H  1
-P16. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0096H  1
+P24. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A4H  1
+P33. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B3H  1
 P07. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0087H  1
-P35. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B5H  1
-P26. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A6H  1
+P16. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0096H  1
+P25. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A5H  1
+P34. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B4H  1
 P17. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0097H  1
-P36. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B6H  1
+P26. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A6H  1
+P35. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B5H  1
 P27. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A7H  1
+P36. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B6H  1
 P37. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B7H  1
 IE0. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0089H  1
 IE1. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      008BH  1
@@ -388,7 +405,7 @@ T2CON. . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   00C8H  1
 RXD. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B0H  1
 TXD. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B1H  1
 F0 . . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00D5H  1
-C51 COMPILER V9.60.0.0   MATRIXKEY                                                         04/14/2022 22:08:24 PAGE 8   
+C51 COMPILER V9.01   MATRIXKEY                                                             04/16/2022 14:33:13 PAGE 8   
 
 NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
 ====                                    =====   ======  ====    ======  ====

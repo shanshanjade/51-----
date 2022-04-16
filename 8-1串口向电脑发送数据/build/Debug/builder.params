@@ -3,12 +3,12 @@
     "target": "Debug",
     "toolchain": "Keil_C51",
     "showRepathOnLog": true,
-    "threadNum": 10,
-    "rootDir": "c:\\Users\\Administrator\\Desktop\\51单片机学习\\8-1串口向电脑发送数据",
+    "threadNum": 6,
+    "rootDir": "c:\\Users\\Administrator\\Desktop\\51-learning\\8-1串口向电脑发送数据",
     "dumpPath": ".eide\\log",
     "outDir": "build\\Debug",
     "incDirs": [
-        "../../../../../Keil_v5/C51/INC",
+        "../../../../../Keil/C51/INC",
         "src",
         "../include"
     ],
@@ -27,7 +27,7 @@
         "src/main.c"
     ],
     "sourceParams": {},
-    "sourceParamsMtime": 1649866765058.4465,
+    "sourceParamsMtime": 1650076505248.9639,
     "options": {
         "version": 2,
         "beforeBuildTasks": [],

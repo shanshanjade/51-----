@@ -1,11 +1,11 @@
-C51 COMPILER V9.60.0.0   MAIN                                                              04/14/2022 22:08:24 PAGE 1   
+C51 COMPILER V9.01   MAIN                                                                  04/16/2022 14:33:13 PAGE 1   
 
 
-C51 COMPILER V9.60.0.0, COMPILATION OF MODULE MAIN
+C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
 OBJECT MODULE PLACED IN .\build\Debug\src\main.o
-COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.exe .\SRC\MAIN.C PRINT(.\build\Debug\src\main.lst) OMF2 TABS(4) CODE NOCOND 
-                    -SYMBOLS OPTIMIZE(8,SPEED) SMALL ROM(LARGE) INCDIR(.\..\..\..\..\..\Keil_v5\C51\INC;.\src;.\..\include) DEFINE(__UVISION_
-                    -VERSION=526) OBJECT(.\build\Debug\src\main.o)
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.exe .\SRC\MAIN.C PRINT(.\build\Debug\src\main.lst) OMF2 TABS(4) CODE NOCOND SYM
+                    -BOLS OPTIMIZE(8,SPEED) SMALL ROM(LARGE) INCDIR(.\..\..\..\..\..\Keil\C51\INC;.\src;.\..\include) DEFINE(__UVISION_VERSIO
+                    -N=526) OBJECT(.\build\Debug\src\main.o)
 
 line level    source
 
@@ -33,20 +33,19 @@ line level    source
   22   2              i = 0;
   23   2              LCD_ShowString(1,1,buffer);
   24   2          }
-  25   1          
-  26   1          RI = 0;
-  27   1          ES = 1;
-  28   1      }
+  25   1          RI = 0;
+  26   1          ES = 1;
+  27   1      }
+  28          
   29          
-  30          
-  31          // void uart_Routine() interrupt 4 {
-  32          //     if (RI == 1)
-  33          //     {
-  34          //         temp = SBUF;
-  35          //         RI = 0;
-  36          //     }
-  37          // }
-C51 COMPILER V9.60.0.0   MAIN                                                              04/14/2022 22:08:24 PAGE 2   
+  30          // void uart_Routine() interrupt 4 {
+  31          //     if (RI == 1)
+  32          //     {
+  33          //         temp = SBUF;
+  34          //         RI = 0;
+  35          //     }
+  36          // }
+C51 COMPILER V9.01   MAIN                                                                  04/16/2022 14:33:13 PAGE 2   
 
 ASSEMBLY LISTING OF GENERATED OBJECT CODE
 
@@ -107,13 +106,13 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 0042 120000      E     LCALL   _LCD_ShowString
                                            ; SOURCE LINE # 24
 0045         ?C0004:
-                                           ; SOURCE LINE # 26
+                                           ; SOURCE LINE # 25
 0045 C298              CLR     RI
-                                           ; SOURCE LINE # 27
-C51 COMPILER V9.60.0.0   MAIN                                                              04/14/2022 22:08:24 PAGE 3   
+                                           ; SOURCE LINE # 26
+C51 COMPILER V9.01   MAIN                                                                  04/16/2022 14:33:13 PAGE 3   
 
 0047 D2AC              SETB    ES
-                                           ; SOURCE LINE # 28
+                                           ; SOURCE LINE # 27
 0049 D007              POP     AR7
 004B D006              POP     AR6
 004D D005              POP     AR5
@@ -130,7 +129,7 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 0063 32                RETI    
              ; FUNCTION uart_Routine (END)
 
-C51 COMPILER V9.60.0.0   MAIN                                                              04/14/2022 22:08:24 PAGE 4   
+C51 COMPILER V9.01   MAIN                                                                  04/16/2022 14:33:13 PAGE 4   
 
 NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
 ====                                    =====   ======  ====    ======  ====
@@ -170,48 +169,48 @@ WR . . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B6H  1
 RCLK . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00CDH  1
 TCLK . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00CCH  1
 P00. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0080H  1
-P10. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0090H  1
 P01. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0081H  1
+P10. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0090H  1
 SBUF . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0099H  1
 PCON . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0087H  1
-P20. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A0H  1
-P11. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0091H  1
 P02. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0082H  1
-P30. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B0H  1
-P21. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A1H  1
-P12. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0092H  1
+P11. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0091H  1
+P20. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A0H  1
 P03. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0083H  1
-P31. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B1H  1
-P22. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A2H  1
-P13. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0093H  1
+P12. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0092H  1
+P21. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A1H  1
+P30. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B0H  1
 P04. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0084H  1
+P13. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0093H  1
+P22. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A2H  1
+P31. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B1H  1
 SCON . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0098H  1
 UartInit . . . . . . . . . . . . . . .  EXTERN   CODE   PROC     -----  -----
-P32. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B2H  1
-P23. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A3H  1
-P14. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0094H  1
 P05. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0085H  1
+P14. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0094H  1
+P23. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A3H  1
+P32. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B2H  1
 TMOD . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0089H  1
 TCON . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0088H  1
-C51 COMPILER V9.60.0.0   MAIN                                                              04/14/2022 22:08:24 PAGE 5   
+C51 COMPILER V9.01   MAIN                                                                  04/16/2022 14:33:13 PAGE 5   
 
 NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
 ====                                    =====   ======  ====    ======  ====
 
 
-P33. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B3H  1
-P24. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A4H  1
-P15. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0095H  1
 P06. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0086H  1
-P34. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B4H  1
-P25. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A5H  1
-P16. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0096H  1
+P15. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0095H  1
+P24. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A4H  1
+P33. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B3H  1
 P07. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0087H  1
-P35. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B5H  1
-P26. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A6H  1
+P16. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0096H  1
+P25. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A5H  1
+P34. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B4H  1
 P17. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0097H  1
-P36. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B6H  1
+P26. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A6H  1
+P35. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B5H  1
 P27. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A7H  1
+P36. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B6H  1
 P37. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B7H  1
 IE0. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0089H  1
 IE1. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      008BH  1
@@ -256,7 +255,7 @@ DPH. . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0083H  1
 DPL. . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0082H  1
 EXEN2. . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00CBH  1
 REN. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      009CH  1
-C51 COMPILER V9.60.0.0   MAIN                                                              04/14/2022 22:08:24 PAGE 6   
+C51 COMPILER V9.01   MAIN                                                                  04/16/2022 14:33:13 PAGE 6   
 
 NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
 ====                                    =====   ======  ====    ======  ====

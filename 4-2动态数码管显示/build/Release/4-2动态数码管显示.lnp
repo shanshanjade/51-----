@@ -1,0 +1,3 @@
+
+.\build\Release\src\LCD1602.o,.\build\Release\src\delay.o,.\build\Release\src\main.o,.\build\Release\src\nixieTube.o TO .\build\Release\4-2动态数码管显示
+PRINT(.\build\Release\4-2动态数码管显示.map) REMOVEUNUSED

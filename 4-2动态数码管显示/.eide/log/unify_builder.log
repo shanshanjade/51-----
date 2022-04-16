@@ -1461,3 +1461,13 @@ compilation terminated.
 .\src\LCD1602.c:53: error 20: Undefined identifier 'LCD_EN'
 .\src\LCD1602.c:55: error 20: Undefined identifier 'LCD_EN'
 
+[2022-04-16 11:19:55]	compilation failed at : "c:\Users\Administrator\Desktop\51-learning\4-2动态数码管显示\src\LCD1602.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+.\src\LCD1602.c:1:19: fatal error: REG52.h: No such file or directory
+compilation terminated.
+.\src\LCD1602.c:1: warning 190: ISO C forbids an empty source file
+
+[2022-04-16 11:20:15]	[done]
+	build successfully !
+
