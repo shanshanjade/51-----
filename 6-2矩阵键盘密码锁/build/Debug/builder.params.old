@@ -3,12 +3,12 @@
     "target": "Debug",
     "toolchain": "Keil_C51",
     "showRepathOnLog": true,
-    "threadNum": 10,
-    "rootDir": "c:\\Users\\Administrator\\Desktop\\51单片机学习\\6-2矩阵键盘密码锁",
+    "threadNum": 6,
+    "rootDir": "c:\\Users\\Administrator\\Desktop\\51-learning\\6-2矩阵键盘密码锁",
     "dumpPath": ".eide\\log",
     "outDir": "build\\Debug",
     "incDirs": [
-        "../../../../../Keil_v5/C51/INC",
+        "../../../../../Keil/C51/INC",
         "src"
     ],
     "libDirs": [],
@@ -22,7 +22,7 @@
         "src/matrixKey.c"
     ],
     "sourceParams": {},
-    "sourceParamsMtime": 1649836822912.3206,
+    "sourceParamsMtime": 1650076505165.0254,
     "options": {
         "version": 2,
         "beforeBuildTasks": [],
