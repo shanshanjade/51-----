@@ -1,0 +1,133 @@
+[2022-04-18 13:42:31]	[done]
+	build successfully !
+
+[2022-04-18 13:43:36]	[done]
+	build successfully !
+
+[2022-04-18 14:12:11]	[done]
+	build successfully !
+
+[2022-04-18 14:22:40]	[done]
+	build successfully !
+
+[2022-04-18 14:24:14]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\9-2led点阵屏显示动画\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 7 OF .\SRC\MAIN.C: syntax error near 'unsigned'
+*** ERROR C202 IN LINE 7 OF .\SRC\MAIN.C: 'i': undefined identifier
+*** ERROR C202 IN LINE 10 OF .\SRC\MAIN.C: 'i': undefined identifier
+*** ERROR C202 IN LINE 11 OF .\SRC\MAIN.C: 'i': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2022-04-18 14:24:54]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\9-2led点阵屏显示动画\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 7 OF .\SRC\MAIN.C: syntax error near 'unsigned'
+*** ERROR C202 IN LINE 7 OF .\SRC\MAIN.C: 'i': undefined identifier
+*** ERROR C202 IN LINE 10 OF .\SRC\MAIN.C: 'i': undefined identifier
+*** ERROR C202 IN LINE 11 OF .\SRC\MAIN.C: 'i': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2022-04-18 14:25:22]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\9-2led点阵屏显示动画\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 7 OF .\SRC\MAIN.C: syntax error near 'int'
+*** ERROR C202 IN LINE 7 OF .\SRC\MAIN.C: 'i': undefined identifier
+*** ERROR C202 IN LINE 10 OF .\SRC\MAIN.C: 'i': undefined identifier
+*** ERROR C202 IN LINE 11 OF .\SRC\MAIN.C: 'i': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2022-04-18 14:26:14]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\9-2led点阵屏显示动画\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 7 OF .\SRC\MAIN.C: syntax error near 'int'
+*** ERROR C202 IN LINE 7 OF .\SRC\MAIN.C: 'i': undefined identifier
+*** ERROR C202 IN LINE 10 OF .\SRC\MAIN.C: 'i': undefined identifier
+*** ERROR C202 IN LINE 11 OF .\SRC\MAIN.C: 'i': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2022-04-18 14:28:00]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\9-2led点阵屏显示动画\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 7 OF .\SRC\MAIN.C: syntax error near 'int'
+*** ERROR C202 IN LINE 7 OF .\SRC\MAIN.C: 'j': undefined identifier
+*** ERROR C202 IN LINE 10 OF .\SRC\MAIN.C: 'j': undefined identifier
+*** ERROR C202 IN LINE 11 OF .\SRC\MAIN.C: 'j': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2022-04-18 14:28:23]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\9-2led点阵屏显示动画\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 7 OF .\SRC\MAIN.C: syntax error near 'unsigned'
+*** ERROR C202 IN LINE 7 OF .\SRC\MAIN.C: 'j': undefined identifier
+*** ERROR C202 IN LINE 10 OF .\SRC\MAIN.C: 'j': undefined identifier
+*** ERROR C202 IN LINE 11 OF .\SRC\MAIN.C: 'j': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2022-04-18 14:29:05]	[done]
+	build successfully !
+
+[2022-04-18 14:29:23]	[done]
+	build successfully !
+
+[2022-04-18 14:29:31]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\9-2led点阵屏显示动画\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 8 OF .\SRC\MAIN.C: syntax error near 'unsigned'
+*** ERROR C202 IN LINE 8 OF .\SRC\MAIN.C: 'j': undefined identifier
+*** ERROR C202 IN LINE 12 OF .\SRC\MAIN.C: 'j': undefined identifier
+*** ERROR C202 IN LINE 13 OF .\SRC\MAIN.C: 'j': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2022-04-18 14:29:38]	[done]
+	build successfully !
+
+[2022-04-18 14:37:13]	[done]
+	build successfully !
+
+[2022-04-18 14:37:57]	[done]
+	build successfully !
+
+[2022-04-18 14:39:20]	[done]
+	build successfully !
+
+[2022-04-18 14:46:06]	[done]
+	build successfully !
+
+[2022-04-18 14:46:31]	[done]
+	build successfully !
+
+[2022-04-18 14:47:33]	[done]
+	build successfully !
+
+[2022-04-18 14:48:01]	[done]
+	build successfully !
+
+[2022-04-18 14:48:58]	[done]
+	build successfully !
+
+[2022-04-18 14:53:55]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\9-2led点阵屏显示动画\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C129 IN LINE 4 OF .\SRC\MAIN.C: missing ';' before 'code'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2022-04-18 14:54:09]	[done]
+	build successfully !
+

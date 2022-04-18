@@ -1,14 +1,14 @@
 {
-    "name": "9-1led点阵屏显示图形",
+    "name": "9-2led点阵屏显示动画",
     "target": "Debug",
     "toolchain": "Keil_C51",
     "showRepathOnLog": true,
-    "threadNum": 10,
-    "rootDir": "c:\\Users\\Administrator\\Desktop\\51单片机学习\\9-1led点阵屏显示图形",
+    "threadNum": 6,
+    "rootDir": "c:\\Users\\Administrator\\Desktop\\C51-learning\\9-2led点阵屏显示动画",
     "dumpPath": ".eide\\log",
     "outDir": "build\\Debug",
     "incDirs": [
-        "../../../../../Keil_v5/C51/INC",
+        "../../../../../Keil/C51/INC",
         "src",
         "../include"
     ],
@@ -22,12 +22,13 @@
         "../include/delay.c",
         "../include/key.c",
         "../include/matrixKey.c",
+        "../include/matrixLED.c",
         "../include/nixieTube.c",
         "../include/uart.c",
         "src/main.c"
     ],
     "sourceParams": {},
-    "sourceParamsMtime": 1649917788130.6975,
+    "sourceParamsMtime": 1650260547909.9387,
     "options": {
         "version": 2,
         "beforeBuildTasks": [],
