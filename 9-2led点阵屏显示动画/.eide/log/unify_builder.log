@@ -131,3 +131,203 @@ C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
 [2022-04-18 14:54:09]	[done]
 	build successfully !
 
+[2022-04-18 17:49:18]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 4 OF .\..\INCLUDE\DS1302.h: syntax error near ')', expected '<id>'
+*** ERROR C141 IN LINE 11 OF .\..\INCLUDE\DS1302.C: syntax error near ')', expected '<id>'
+*** ERROR C141 IN LINE 20 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected 'sizeof'
+*** ERROR C190 IN LINE 20 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 27 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '<id>'
+*** ERROR C141 IN LINE 39 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected '__asm'
+*** ERROR C141 IN LINE 42 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2022-04-18 17:50:32]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 4 OF .\..\INCLUDE\DS1302.h: syntax error near ')', expected '<id>'
+*** ERROR C141 IN LINE 11 OF .\..\INCLUDE\DS1302.C: syntax error near ')', expected '<id>'
+*** ERROR C141 IN LINE 20 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected 'sizeof'
+*** ERROR C190 IN LINE 20 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 27 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '<id>'
+*** ERROR C141 IN LINE 39 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected '__asm'
+*** ERROR C141 IN LINE 42 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2022-04-18 17:52:36]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 4 OF .\..\INCLUDE\DS1302.h: syntax error near ')', expected '<id>'
+*** ERROR C141 IN LINE 11 OF .\..\INCLUDE\DS1302.C: syntax error near ')', expected '<id>'
+*** ERROR C141 IN LINE 20 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected 'sizeof'
+*** ERROR C190 IN LINE 20 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 27 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '<id>'
+*** ERROR C141 IN LINE 39 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected '__asm'
+*** ERROR C141 IN LINE 42 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2022-04-18 17:54:01]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 4 OF .\..\INCLUDE\DS1302.h: syntax error near ')', expected '<id>'
+*** ERROR C236 IN LINE 11 OF .\..\INCLUDE\DS1302.C: '_DS1302_WriteByte': different length of parameter lists
+*** ERROR C141 IN LINE 39 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected '__asm'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2022-04-18 17:54:50]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 4 OF .\..\INCLUDE\DS1302.h: syntax error near ')', expected '<id>'
+*** ERROR C236 IN LINE 11 OF .\..\INCLUDE\DS1302.C: '_DS1302_WriteByte': different length of parameter lists
+*** ERROR C141 IN LINE 39 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected '__asm'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2022-04-18 17:55:11]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 4 OF .\..\INCLUDE\DS1302.h: syntax error near ')', expected '<id>'
+*** ERROR C202 IN LINE 9 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C236 IN LINE 11 OF .\..\INCLUDE\DS1302.C: '_DS1302_WriteByte': different length of parameter lists
+*** ERROR C202 IN LINE 16 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 17 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 21 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 22 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 31 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 32 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 36 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 37 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C141 IN LINE 39 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected '__asm'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  12 ERROR(S)
+
+[2022-04-18 17:55:19]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 4 OF .\..\INCLUDE\DS1302.h: syntax error near ')', expected '<id>'
+*** ERROR C202 IN LINE 9 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C236 IN LINE 11 OF .\..\INCLUDE\DS1302.C: '_DS1302_WriteByte': different length of parameter lists
+*** ERROR C202 IN LINE 16 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 17 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 21 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 22 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 31 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 32 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 36 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 37 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C141 IN LINE 39 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected '__asm'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  12 ERROR(S)
+
+[2022-04-18 17:55:53]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 4 OF .\..\INCLUDE\DS1302.h: syntax error near ')', expected '<id>'
+*** ERROR C202 IN LINE 9 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C236 IN LINE 11 OF .\..\INCLUDE\DS1302.C: '_DS1302_WriteByte': different length of parameter lists
+*** ERROR C202 IN LINE 16 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 17 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 21 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 22 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 31 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 32 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 36 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 37 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C141 IN LINE 39 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected '__asm'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  12 ERROR(S)
+
+[2022-04-18 17:56:05]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 4 OF .\..\INCLUDE\DS1302.h: syntax error near ')', expected '<id>'
+*** ERROR C236 IN LINE 11 OF .\..\INCLUDE\DS1302.C: '_DS1302_WriteByte': different length of parameter lists
+*** ERROR C141 IN LINE 39 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected '__asm'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2022-04-18 17:59:09]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 4 OF .\..\INCLUDE\DS1302.h: syntax error near ')', expected '<id>'
+*** ERROR C141 IN LINE 9 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C236 IN LINE 11 OF .\..\INCLUDE\DS1302.C: '_DS1302_WriteByte': different length of parameter lists
+*** ERROR C141 IN LINE 16 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 17 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 21 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 22 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 31 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 32 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 36 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 37 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 39 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected '__asm'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  12 ERROR(S)
+
+[2022-04-18 17:59:32]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 4 OF .\..\INCLUDE\DS1302.h: syntax error near ')', expected '<id>'
+*** ERROR C141 IN LINE 8 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 9 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C236 IN LINE 11 OF .\..\INCLUDE\DS1302.C: '_DS1302_WriteByte': different length of parameter lists
+*** ERROR C141 IN LINE 13 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 15 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 16 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 17 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 20 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 21 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 22 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 24 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 28 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 30 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 31 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 32 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 36 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 37 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+*** ERROR C141 IN LINE 38 OF .\..\INCLUDE\DS1302.C: syntax error near ';', expected ','
+*** ERROR C141 IN LINE 38 OF .\..\INCLUDE\DS1302.C: syntax error near ')', expected '__asm'
+*** ERROR C141 IN LINE 41 OF .\..\INCLUDE\DS1302.C: syntax error near '=', expected '__asm'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  21 ERROR(S)
+
+[2022-04-18 18:00:18]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 4 OF .\..\INCLUDE\DS1302.h: syntax error near ')', expected '<id>'
+*** ERROR C236 IN LINE 11 OF .\..\INCLUDE\DS1302.C: '_DS1302_WriteByte': different length of parameter lists
+*** ERROR C141 IN LINE 39 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected '__asm'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2022-04-18 18:00:44]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.60.0.0 - SN: K1DZC-UVG34C
+COPYRIGHT Copyright (C) 2012 - 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 39 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected '__asm'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2022-04-18 18:01:10]	[done]
+	build successfully !
+
+[2022-04-18 18:09:00]	[done]
+	build successfully !
+

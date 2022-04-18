@@ -3,32 +3,36 @@
     "target": "Debug",
     "toolchain": "Keil_C51",
     "showRepathOnLog": true,
-    "threadNum": 6,
+    "threadNum": 10,
     "rootDir": "c:\\Users\\Administrator\\Desktop\\C51-learning\\10-1 DS1302时钟",
     "dumpPath": ".eide\\log",
     "outDir": "build\\Debug",
     "incDirs": [
-        "../../../../../Keil/C51/INC",
+        "../../../../../Keil_v5/C51/INC",
+        "../../../../../Keil_v5/C51/INC",
         "src",
-        "../include"
+        "src/include"
     ],
-    "libDirs": [],
+    "libDirs": [
+        "../../../../../Keil_v5/C51/LIB"
+    ],
     "defines": [
         "__UVISION_VERSION=526"
     ],
     "sourceList": [
-        "../include/LCD1602.c",
-        "../include/Timer0.c",
-        "../include/delay.c",
-        "../include/key.c",
-        "../include/matrixKey.c",
-        "../include/matrixLED.c",
-        "../include/nixieTube.c",
-        "../include/uart.c",
+        "src/include/DS1302.c",
+        "src/include/LCD1602.c",
+        "src/include/Timer0.c",
+        "src/include/delay.c",
+        "src/include/key.c",
+        "src/include/matrixKey.c",
+        "src/include/matrixLED.c",
+        "src/include/nixieTube.c",
+        "src/include/uart.c",
         "src/main.c"
     ],
     "sourceParams": {},
-    "sourceParamsMtime": 1650269006488.2869,
+    "sourceParamsMtime": 1650277080155.309,
     "options": {
         "version": 2,
         "beforeBuildTasks": [],
