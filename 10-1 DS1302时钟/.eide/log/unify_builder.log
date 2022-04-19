@@ -1,6 +1,867 @@
 [2022-04-18 16:03:30]	[done]
 	build successfully !
 
+<<<<<<< HEAD
+[2022-04-18 16:40:10]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 10 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 19 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 19 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 26 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+*** ERROR C141 IN LINE 38 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 41 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  6 ERROR(S)
+
+[2022-04-18 16:41:20]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 10 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 19 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 19 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 26 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 38 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 41 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  6 ERROR(S)
+
+[2022-04-18 16:41:59]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 10 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 19 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 19 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 26 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 38 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 41 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  6 ERROR(S)
+
+[2022-04-18 16:42:45]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 10 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 19 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 19 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 26 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 38 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 41 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  6 ERROR(S)
+
+[2022-04-18 16:45:23]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 10 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 19 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 19 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 26 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 38 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 41 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  6 ERROR(S)
+
+[2022-04-18 16:48:48]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 4 OF .\..\INCLUDE\DS1302.H: syntax error near ')'
+*** ERROR C141 IN LINE 11 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 20 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 20 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 27 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 38 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 41 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2022-04-18 16:50:22]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 4 OF .\..\INCLUDE\DS1302.H: syntax error near ')'
+*** ERROR C141 IN LINE 11 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 20 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 20 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 27 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 38 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 41 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2022-04-18 16:51:08]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 4 OF .\..\INCLUDE\DS1302.H: syntax error near ')'
+*** ERROR C141 IN LINE 11 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 20 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 20 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 27 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 38 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 41 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2022-04-18 16:51:27]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 4 OF .\..\INCLUDE\DS1302.H: syntax error near ')'
+*** ERROR C141 IN LINE 11 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 20 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 20 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 27 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 38 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 41 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2022-04-18 16:52:28]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 5 OF .\..\INCLUDE\DS1302.H: syntax error near ')'
+*** ERROR C141 IN LINE 11 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 20 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 20 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 27 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 38 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 41 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2022-04-18 16:53:16]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 5 OF .\..\INCLUDE\DS1302.H: syntax error near ')'
+*** ERROR C141 IN LINE 11 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 20 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 20 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 27 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 38 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 41 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2022-04-18 16:55:42]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 5 OF .\..\INCLUDE\DS1302.H: syntax error near ')'
+*** ERROR C141 IN LINE 11 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 20 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 20 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 27 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 38 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 41 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2022-04-18 16:56:00]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 5 OF .\..\INCLUDE\DS1302.H: syntax error near ')'
+*** ERROR C141 IN LINE 11 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 20 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 20 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 27 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 38 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 41 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2022-04-18 16:57:17]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 5 OF .\..\INCLUDE\DS1302.H: syntax error near ')'
+*** ERROR C141 IN LINE 10 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 19 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 19 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 26 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 37 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 40 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2022-04-18 16:57:37]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 5 OF .\..\INCLUDE\DS1302.H: syntax error near ')'
+*** ERROR C141 IN LINE 10 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 19 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 19 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 26 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 37 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 40 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2022-04-18 16:57:42]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 5 OF .\..\INCLUDE\DS1302.H: syntax error near ')'
+*** ERROR C141 IN LINE 10 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 19 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 19 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 26 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 37 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 40 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2022-04-18 16:58:39]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 5 OF .\..\INCLUDE\DS1302.H: syntax error near ')'
+*** ERROR C141 IN LINE 10 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 19 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 19 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 26 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 37 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 40 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2022-04-18 16:59:34]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 5 OF .\..\INCLUDE\DS1302.H: syntax error near ')'
+*** ERROR C141 IN LINE 10 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 19 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C190 IN LINE 19 OF .\..\INCLUDE\DS1302.C: '&': not an lvalue
+*** ERROR C141 IN LINE 26 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 37 OF .\..\INCLUDE\DS1302.C: syntax error near 'data'
+*** ERROR C141 IN LINE 40 OF .\..\INCLUDE\DS1302.C: syntax error near 'data', expected ';'
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2022-04-19 08:04:12]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+LX51 LINKER/LOCATER V4.41 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1995 - 2009
+@c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\build\Debug\10-1 DS1302时钟.lnp 
+.\build\Debug\__\include\DS1302.o,.\build\Debug\__\include\LCD1602.o,.\build\Debug\__\include\Timer0.o,.\build\Debug\__\include\delay.o,.\build\Debug\__\include\key.o,.\build\Debug\__\include\matrixKey.o,.\build\Debug\__\include\matrixLED.o,.\build\Debug\__\include\nixieTube.o,.\build\Debug\__\include\uart.o,.\build\Debug\src\main.o TO ".\build\Debug\10-1 DS1302时钟"
+PRINT(".\build\Debug\10-1 DS1302时钟.map") REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 100020CH
+Program Size: data=29.0 xdata=0 const=0 code=750
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-19 08:04:54]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C202 IN LINE 2 OF .\..\INCLUDE\DS1302.C: 'P3': undefined identifier
+*** ERROR C202 IN LINE 3 OF .\..\INCLUDE\DS1302.C: 'P3': undefined identifier
+*** ERROR C202 IN LINE 4 OF .\..\INCLUDE\DS1302.C: 'P3': undefined identifier
+*** ERROR C202 IN LINE 7 OF .\..\INCLUDE\DS1302.C: 'DS1302_CE': undefined identifier
+*** ERROR C202 IN LINE 8 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 12 OF .\..\INCLUDE\DS1302.C: 'DS1302_CE': undefined identifier
+*** ERROR C202 IN LINE 14 OF .\..\INCLUDE\DS1302.C: 'DS1302_IO': undefined identifier
+*** ERROR C202 IN LINE 15 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 16 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 19 OF .\..\INCLUDE\DS1302.C: 'DS1302_IO': undefined identifier
+*** ERROR C202 IN LINE 20 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 21 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 23 OF .\..\INCLUDE\DS1302.C: 'DS1302_CE': undefined identifier
+*** ERROR C202 IN LINE 27 OF .\..\INCLUDE\DS1302.C: 'DS1302_CE': undefined identifier
+*** ERROR C202 IN LINE 29 OF .\..\INCLUDE\DS1302.C: 'DS1302_IO': undefined identifier
+*** ERROR C202 IN LINE 30 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 31 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 34 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 35 OF .\..\INCLUDE\DS1302.C: 'DS1302_SCLK': undefined identifier
+*** ERROR C202 IN LINE 36 OF .\..\INCLUDE\DS1302.C: 'DS1302_IO': undefined identifier
+*** ERROR C202 IN LINE 39 OF .\..\INCLUDE\DS1302.C: 'DS1302_CE': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  21 ERROR(S)
+
+[2022-04-19 08:05:36]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+LX51 LINKER/LOCATER V4.41 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1995 - 2009
+@c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\build\Debug\10-1 DS1302时钟.lnp 
+.\build\Debug\__\include\DS1302.o,.\build\Debug\__\include\LCD1602.o,.\build\Debug\__\include\Timer0.o,.\build\Debug\__\include\delay.o,.\build\Debug\__\include\key.o,.\build\Debug\__\include\matrixKey.o,.\build\Debug\__\include\matrixLED.o,.\build\Debug\__\include\nixieTube.o,.\build\Debug\__\include\uart.o,.\build\Debug\src\main.o TO ".\build\Debug\10-1 DS1302时钟"
+PRINT(".\build\Debug\10-1 DS1302时钟.map") REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 100020CH
+Program Size: data=29.0 xdata=0 const=0 code=750
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-19 08:07:35]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+LX51 LINKER/LOCATER V4.41 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1995 - 2009
+@c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\build\Debug\10-1 DS1302时钟.lnp 
+.\build\Debug\__\include\DS1302.o,.\build\Debug\__\include\LCD1602.o,.\build\Debug\__\include\Timer0.o,.\build\Debug\__\include\delay.o,.\build\Debug\__\include\key.o,.\build\Debug\__\include\matrixKey.o,.\build\Debug\__\include\matrixLED.o,.\build\Debug\__\include\nixieTube.o,.\build\Debug\__\include\uart.o,.\build\Debug\src\main.o TO ".\build\Debug\10-1 DS1302时钟"
+PRINT(".\build\Debug\10-1 DS1302时钟.map") REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 100020CH
+Program Size: data=29.0 xdata=0 const=0 code=750
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-19 08:10:38]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** WARNING C275 IN LINE 11 OF .\..\INCLUDE\DS1302.C: expression with possibly no effect
+*** ERROR C141 IN LINE 11 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+*** ERROR C141 IN LINE 12 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+*** ERROR C141 IN LINE 16 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+*** ERROR C141 IN LINE 18 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+*** ERROR C141 IN LINE 19 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+*** ERROR C141 IN LINE 20 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+*** ERROR C141 IN LINE 23 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+*** ERROR C141 IN LINE 24 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+*** ERROR C141 IN LINE 25 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+*** ERROR C141 IN LINE 27 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+*** ERROR C141 IN LINE 31 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+*** ERROR C141 IN LINE 33 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+*** ERROR C141 IN LINE 34 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+*** ERROR C141 IN LINE 35 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+*** ERROR C141 IN LINE 38 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+*** ERROR C141 IN LINE 39 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+*** ERROR C141 IN LINE 40 OF .\..\INCLUDE\DS1302.C: syntax error near ';'
+*** ERROR C141 IN LINE 40 OF .\..\INCLUDE\DS1302.C: syntax error near ')'
+*** ERROR C141 IN LINE 43 OF .\..\INCLUDE\DS1302.C: syntax error near '='
+C51 COMPILATION COMPLETE.  1 WARNING(S),  19 ERROR(S)
+
+[2022-04-19 08:11:11]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+LX51 LINKER/LOCATER V4.41 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1995 - 2009
+@c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\build\Debug\10-1 DS1302时钟.lnp 
+.\build\Debug\__\include\DS1302.o,.\build\Debug\__\include\LCD1602.o,.\build\Debug\__\include\Timer0.o,.\build\Debug\__\include\delay.o,.\build\Debug\__\include\key.o,.\build\Debug\__\include\matrixKey.o,.\build\Debug\__\include\matrixLED.o,.\build\Debug\__\include\nixieTube.o,.\build\Debug\__\include\uart.o,.\build\Debug\src\main.o TO ".\build\Debug\10-1 DS1302时钟"
+PRINT(".\build\Debug\10-1 DS1302时钟.map") REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 100020CH
+Program Size: data=29.0 xdata=0 const=0 code=750
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-19 08:11:46]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+LX51 LINKER/LOCATER V4.41 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1995 - 2009
+@c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\build\Debug\10-1 DS1302时钟.lnp 
+.\build\Debug\__\include\DS1302.o,.\build\Debug\__\include\LCD1602.o,.\build\Debug\__\include\Timer0.o,.\build\Debug\__\include\delay.o,.\build\Debug\__\include\key.o,.\build\Debug\__\include\matrixKey.o,.\build\Debug\__\include\matrixLED.o,.\build\Debug\__\include\nixieTube.o,.\build\Debug\__\include\uart.o,.\build\Debug\src\DS1302.o,.\build\Debug\src\main.o TO ".\build\Debug\10-1 DS1302时钟"
+PRINT(".\build\Debug\10-1 DS1302时钟.map") REMOVEUNUSED
+*** WARNING L7: MODULE NAME NOT UNIQUE
+    MODULE:  .\BUILD\DEBUG\SRC\DS1302.O (DS1302)
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 100020CH
+Program Size: data=29.0 xdata=0 const=0 code=750
+LX51 RUN COMPLETE.  1 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-19 08:14:18]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+LX51 LINKER/LOCATER V4.41 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1995 - 2009
+@c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\build\Debug\10-1 DS1302时钟.lnp 
+.\build\Debug\__\include\DS1302.o,.\build\Debug\__\include\LCD1602.o,.\build\Debug\__\include\Timer0.o,.\build\Debug\__\include\delay.o,.\build\Debug\__\include\key.o,.\build\Debug\__\include\matrixKey.o,.\build\Debug\__\include\matrixLED.o,.\build\Debug\__\include\nixieTube.o,.\build\Debug\__\include\uart.o,.\build\Debug\src\main.o TO ".\build\Debug\10-1 DS1302时钟"
+PRINT(".\build\Debug\10-1 DS1302时钟.map") REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 100020CH
+Program Size: data=29.0 xdata=0 const=0 code=750
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-19 08:17:34]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+LX51 LINKER/LOCATER V4.41 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1995 - 2009
+@c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\build\Debug\10-1 DS1302时钟.lnp 
+.\build\Debug\__\include\DS1302.o,.\build\Debug\__\include\LCD1602.o,.\build\Debug\__\include\Timer0.o,.\build\Debug\__\include\delay.o,.\build\Debug\__\include\key.o,.\build\Debug\__\include\matrixKey.o,.\build\Debug\__\include\matrixLED.o,.\build\Debug\__\include\nixieTube.o,.\build\Debug\__\include\uart.o,.\build\Debug\src\main.o TO ".\build\Debug\10-1 DS1302时钟"
+PRINT(".\build\Debug\10-1 DS1302时钟.map") REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 100020CH
+Program Size: data=29.0 xdata=0 const=0 code=750
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-19 08:20:15]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+LX51 LINKER/LOCATER V4.41 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1995 - 2009
+@c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\build\Debug\10-1 DS1302时钟.lnp 
+.\build\Debug\__\include\DS1302.o,.\build\Debug\__\include\LCD1602.o,.\build\Debug\__\include\Timer0.o,.\build\Debug\__\include\delay.o,.\build\Debug\__\include\key.o,.\build\Debug\__\include\matrixKey.o,.\build\Debug\__\include\matrixLED.o,.\build\Debug\__\include\nixieTube.o,.\build\Debug\__\include\uart.o,.\build\Debug\src\main.o TO ".\build\Debug\10-1 DS1302时钟"
+PRINT(".\build\Debug\10-1 DS1302时钟.map") REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 100020CH
+Program Size: data=29.0 xdata=0 const=0 code=750
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2022-04-19 08:20:29]	[done]
+	build successfully !
+
+[2022-04-19 08:42:12]	[done]
+	build successfully !
+
+[2022-04-19 08:43:41]	[done]
+	build successfully !
+
+[2022-04-19 08:45:04]	[done]
+	build successfully !
+
+[2022-04-19 08:47:11]	[done]
+	build successfully !
+
+[2022-04-19 08:49:40]	[done]
+	build successfully !
+
+[2022-04-19 09:43:54]	[done]
+	build successfully !
+
+[2022-04-19 09:44:48]	[done]
+	build successfully !
+
+[2022-04-19 09:52:25]	[done]
+	build successfully !
+
+[2022-04-19 09:56:23]	[done]
+	build successfully !
+
+[2022-04-19 09:59:02]	[done]
+	build successfully !
+
+[2022-04-19 09:59:59]	[done]
+	build successfully !
+
+[2022-04-19 10:00:46]	[done]
+	build successfully !
+
+[2022-04-19 10:03:39]	[done]
+	build successfully !
+
+[2022-04-19 10:14:05]	[done]
+	build successfully !
+
+[2022-04-19 10:15:40]	[done]
+	build successfully !
+
+[2022-04-19 10:18:06]	[done]
+	build successfully !
+
+[2022-04-19 10:34:06]	[done]
+	build successfully !
+
+[2022-04-19 10:35:38]	[done]
+	build successfully !
+
+[2022-04-19 10:42:37]	[done]
+	build successfully !
+
+[2022-04-19 10:44:05]	[done]
+	build successfully !
+
+[2022-04-19 11:05:37]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** WARNING C209 IN LINE 63 OF .\SRC\MAIN.C: '_LCD_ShowNum': too few actual parameters
+*** ERROR C141 IN LINE 65 OF .\SRC\MAIN.C: syntax error near '}'
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2022-04-19 11:05:59]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+LX51 LINKER/LOCATER V4.41 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1995 - 2009
+@c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\build\Debug\10-1 DS1302时钟.lnp 
+.\build\Debug\src\include\DS1302.o,.\build\Debug\src\include\LCD1602.o,.\build\Debug\src\include\delay.o,.\build\Debug\src\main.o TO ".\build\Debug\10-1 DS1302时钟"
+PRINT(".\build\Debug\10-1 DS1302时钟.map") REMOVEUNUSED
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+   DEFINED:  .\BUILD\DEBUG\SRC\INCLUDE\DS1302.O (DS1302)
+Program Size: data=43.1 xdata=0 const=0 code=826
+LX51 RUN COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+
+[2022-04-19 11:06:31]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+LX51 LINKER/LOCATER V4.41 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1995 - 2009
+@c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\build\Debug\10-1 DS1302时钟.lnp 
+.\build\Debug\src\include\DS1302.o,.\build\Debug\src\include\LCD1602.o,.\build\Debug\src\include\delay.o,.\build\Debug\src\main.o TO ".\build\Debug\10-1 DS1302时钟"
+PRINT(".\build\Debug\10-1 DS1302时钟.map") REMOVEUNUSED
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+   DEFINED:  .\BUILD\DEBUG\SRC\INCLUDE\DS1302.O (DS1302)
+Program Size: data=43.1 xdata=0 const=0 code=836
+LX51 RUN COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+
+[2022-04-19 11:07:43]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+LX51 LINKER/LOCATER V4.41 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1995 - 2009
+@c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\build\Debug\10-1 DS1302时钟.lnp 
+.\build\Debug\src\include\DS1302.o,.\build\Debug\src\include\LCD1602.o,.\build\Debug\src\include\delay.o,.\build\Debug\src\main.o TO ".\build\Debug\10-1 DS1302时钟"
+PRINT(".\build\Debug\10-1 DS1302时钟.map") REMOVEUNUSED
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+   DEFINED:  .\BUILD\DEBUG\SRC\INCLUDE\DS1302.O (DS1302)
+Program Size: data=43.1 xdata=0 const=0 code=836
+LX51 RUN COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+
+[2022-04-19 11:08:16]	[done]
+	build successfully !
+
+[2022-04-19 11:10:14]	[done]
+	build successfully !
+
+[2022-04-19 11:23:09]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C202 IN LINE 204 OF .\SRC\MAIN.C: 'tmp': undefined identifier
+*** ERROR C202 IN LINE 206 OF .\SRC\MAIN.C: 'tmp': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2022-04-19 11:23:21]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C202 IN LINE 206 OF .\SRC\MAIN.C: 'tmp': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2022-04-19 11:23:42]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+LX51 LINKER/LOCATER V4.41 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1995 - 2009
+@c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\build\Debug\10-1 DS1302时钟.lnp 
+.\build\Debug\src\include\LCD1602.o,.\build\Debug\src\include\delay.o,.\build\Debug\src\main.o TO ".\build\Debug\10-1 DS1302时钟"
+PRINT(".\build\Debug\10-1 DS1302时钟.map") REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DS1302_ReadByte
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DS1302_WriteByte
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 100009BH
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DS1302_WriteByte
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 10000AFH
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DS1302_ReadByte
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 10000B4H
+Program Size: data=20.0 xdata=0 const=0 code=487
+LX51 RUN COMPLETE.  0 WARNING(S),  6 ERROR(S)
+
+
+[2022-04-19 11:24:22]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+LX51 LINKER/LOCATER V4.41 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1995 - 2009
+@c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\build\Debug\10-1 DS1302时钟.lnp 
+.\build\Debug\src\include\LCD1602.o,.\build\Debug\src\include\delay.o,.\build\Debug\src\main.o TO ".\build\Debug\10-1 DS1302时钟"
+PRINT(".\build\Debug\10-1 DS1302时钟.map") REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DS1302_ReadByte
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DS1302_WriteByte
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 100009BH
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DS1302_WriteByte
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 10000AFH
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DS1302_ReadByte
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 10000B4H
+Program Size: data=20.0 xdata=0 const=0 code=487
+LX51 RUN COMPLETE.  0 WARNING(S),  6 ERROR(S)
+
+
+[2022-04-19 11:24:49]	[done]
+	build successfully !
+
+[2022-04-19 11:29:53]	[done]
+	build successfully !
+
+[2022-04-19 11:32:05]	[done]
+	build successfully !
+
+[2022-04-19 11:40:16]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+LX51 LINKER/LOCATER V4.41 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1995 - 2009
+@c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\build\Debug\10-1 DS1302时钟.lnp 
+.\build\Debug\src\include\LCD1602.o,.\build\Debug\src\include\delay.o,.\build\Debug\src\main.o TO ".\build\Debug\10-1 DS1302时钟"
+PRINT(".\build\Debug\10-1 DS1302时钟.map") REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DS1302_ReadByte
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DS1302_WriteByte
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 100009BH
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DS1302_WriteByte
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 10000AFH
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DS1302_ReadByte
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 10000B4H
+Program Size: data=20.0 xdata=0 const=0 code=487
+LX51 RUN COMPLETE.  0 WARNING(S),  6 ERROR(S)
+
+
+[2022-04-19 11:40:30]	[done]
+	build successfully !
+
+[2022-04-19 11:48:21]	[done]
+	build successfully !
+
+[2022-04-19 11:51:55]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C141 IN LINE 50 OF .\SRC\MAIN.C: syntax error near 'LCD_ShowNum'
+*** ERROR C237 IN LINE 195 OF .\SRC\MAIN.C: 'main': function already has a body
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2022-04-19 11:52:15]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C237 IN LINE 195 OF .\SRC\MAIN.C: 'main': function already has a body
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2022-04-19 11:52:28]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C237 IN LINE 195 OF .\SRC\MAIN.C: 'main': function already has a body
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2022-04-19 11:52:44]	[done]
+	build successfully !
+
+[2022-04-19 11:55:38]	link failed !, exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x01a98] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+LX51 LINKER/LOCATER V4.41 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1995 - 2009
+@c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\build\Debug\10-1 DS1302时钟.lnp 
+.\build\Debug\src\include\LCD1602.o,.\build\Debug\src\include\delay.o,.\build\Debug\src\main.o TO ".\build\Debug\10-1 DS1302时钟"
+PRINT(".\build\Debug\10-1 DS1302时钟.map") REMOVEUNUSED
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DS1302_ReadByte
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DS1302_WriteByte
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302_Init
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 100009BH
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DS1302_WriteByte
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 10000AFH
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DS1302_ReadByte
+    MODULE:  .\BUILD\DEBUG\SRC\MAIN.O (MAIN)
+    ADDRESS: 10000B4H
+Program Size: data=20.0 xdata=0 const=0 code=487
+LX51 RUN COMPLETE.  0 WARNING(S),  6 ERROR(S)
+
+
+[2022-04-19 11:55:52]	[done]
+	build successfully !
+
+[2022-04-19 13:41:45]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** WARNING C206 IN LINE 10 OF .\SRC\MAIN.C: 'DS1302_WriteByte': missing function-prototype
+*** ERROR C267 IN LINE 10 OF .\SRC\MAIN.C: 'DS1302_WriteByte': requires ANSI-style prototype
+*** ERROR C202 IN LINE 14 OF .\SRC\MAIN.C: 'time_buf1': undefined identifier
+C51 COMPILATION COMPLETE.  1 WARNING(S),  2 ERROR(S)
+
+[2022-04-19 13:43:48]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C202 IN LINE 14 OF .\SRC\MAIN.C: 'time_buf1': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2022-04-19 13:46:59]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C202 IN LINE 13 OF .\SRC\MAIN.C: 'DS1302_SEC': undefined identifier
+*** ERROR C141 IN LINE 14 OF .\SRC\MAIN.C: syntax error near ','
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2022-04-19 13:47:14]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C202 IN LINE 13 OF .\SRC\MAIN.C: 'DS1302_SEC': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2022-04-19 13:47:59]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\src\include\DS1302.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** ERROR C202 IN LINE 33 OF .\SRC\INCLUDE\DS1302.C: 'DS1302_SEC': undefined identifier
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2022-04-19 13:48:21]	[done]
+	build successfully !
+
+[2022-04-19 13:51:21]	[done]
+	build successfully !
+
+[2022-04-19 15:42:10]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** WARNING C206 IN LINE 13 OF .\SRC\MAIN.C: 'DS1302_Read_Time': missing function-prototype
+*** ERROR C267 IN LINE 13 OF .\SRC\MAIN.C: 'DS1302_Read_Time': requires ANSI-style prototype
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2022-04-19 15:42:59]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** WARNING C206 IN LINE 13 OF .\SRC\MAIN.C: 'DS1302_Read_Time': missing function-prototype
+*** ERROR C267 IN LINE 13 OF .\SRC\MAIN.C: 'DS1302_Read_Time': requires ANSI-style prototype
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2022-04-19 15:43:25]	[done]
+	build successfully !
+
+[2022-04-19 15:59:30]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\10-1 DS1302时钟\src\main.c", exit code: 2
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+C51 COMPILER V9.01 - SN: K1DZC-61E2TC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+*** WARNING C206 IN LINE 10 OF .\SRC\MAIN.C: 'DS1302_Write_Time': missing function-prototype
+*** ERROR C267 IN LINE 10 OF .\SRC\MAIN.C: 'DS1302_Write_Time': requires ANSI-style prototype
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2022-04-19 16:00:00]	[done]
+	build successfully !
+
+=======
 [2022-04-18 17:46:40]	compilation failed at : "c:\Users\Administrator\Desktop\C51-learning\include\DS1302.c", exit code: 2
   at unify_builder.Program.Main (System.String[] args) [0x018f4] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
 ---
@@ -69,3 +930,4 @@ C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
 [2022-04-18 18:25:12]	[done]
 	build successfully !
 
+>>>>>>> 4eec1c20e38af43251e5f6607565e8f5bbfe3471

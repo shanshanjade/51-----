@@ -12,9 +12,12 @@
         "../../../../../Keil_v5/C51/INC",
         "src",
         "src/include"
+<<<<<<< HEAD
+=======
     ],
     "libDirs": [
         "../../../../../Keil_v5/C51/LIB"
+>>>>>>> 4eec1c20e38af43251e5f6607565e8f5bbfe3471
     ],
     "defines": [
         "__UVISION_VERSION=526"
@@ -22,6 +25,9 @@
     "sourceList": [
         "src/include/DS1302.c",
         "src/include/LCD1602.c",
+<<<<<<< HEAD
+        "src/include/delay.c",
+=======
         "src/include/Timer0.c",
         "src/include/delay.c",
         "src/include/key.c",
@@ -29,6 +35,7 @@
         "src/include/matrixLED.c",
         "src/include/nixieTube.c",
         "src/include/uart.c",
+>>>>>>> 4eec1c20e38af43251e5f6607565e8f5bbfe3471
         "src/main.c"
     ],
     "sourceParams": {},
