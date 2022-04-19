@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-.\src\include\delay.c PRINT(.\build\Debug\src\include\delay.lst) OMF2 TABS(4) CODE NOCOND SYMBOLS OPTIMIZE(8,SPEED) SMALL ROM(LARGE) INCDIR(.\..\..\..\..\..\Keil\C51\INC;.\src;.\src\include) DEFINE(__UVISION_VERSION='526') OBJECT(.\build\Debug\src\include\delay.o)
-=======
-.\src\include\delay.c PRINT(.\build\Debug\src\include\delay.lst) OMF2 TABS(4) CODE NOCOND SYMBOLS OPTIMIZE(8,SPEED) SMALL ROM(LARGE) INCDIR(.\..\..\..\..\..\Keil_v5\C51\INC;.\..\..\..\..\..\Keil_v5\C51\INC;.\src;.\src\include) DEFINE(__UVISION_VERSION='526') OBJECT(.\build\Debug\src\include\delay.o)
->>>>>>> 4eec1c20e38af43251e5f6607565e8f5bbfe3471
