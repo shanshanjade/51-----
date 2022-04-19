@@ -1,1 +1,0 @@
-.\src\matrixKey.c PRINT(.\build\Debug\src\matrixKey.lst) OMF2 TABS(4) CODE NOCOND SYMBOLS OPTIMIZE(8,SPEED) SMALL ROM(LARGE) INCDIR(.\..\include;.\..\..\..\..\..\Keil_v5\C51\INC;.\src) DEFINE(__UVISION_VERSION='526') OBJECT(.\build\Debug\src\matrixKey.o)

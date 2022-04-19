@@ -1,3 +1,0 @@
-
-.\build\Release\src\delay.o,.\build\Release\src\main.o TO .\build\Release\1-2独立按键控制led显示二进制
-PRINT(.\build\Release\1-2独立按键控制led显示二进制.map) REMOVEUNUSED
