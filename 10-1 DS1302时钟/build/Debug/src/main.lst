@@ -1,50 +1,123 @@
-C51 COMPILER V9.01   MAIN                                                                  04/18/2022 16:03:29 PAGE 1   
+C51 COMPILER V9.01   MAIN                                                                  04/19/2022 15:59:59 PAGE 1   
 
 
 C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
 OBJECT MODULE PLACED IN .\build\Debug\src\main.o
 COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.exe .\SRC\MAIN.C PRINT(.\build\Debug\src\main.lst) OMF2 TABS(4) CODE NOCOND SYM
-                    -BOLS OPTIMIZE(8,SPEED) SMALL ROM(LARGE) INCDIR(.\..\..\..\..\..\Keil\C51\INC;.\src;.\..\include) DEFINE(__UVISION_VERSIO
-                    -N=526) OBJECT(.\build\Debug\src\main.o)
+                    -BOLS OPTIMIZE(8,SPEED) SMALL ROM(LARGE) INCDIR(.\..\..\..\..\..\Keil\C51\INC;.\src;.\src\include) DEFINE(__UVISION_VERSI
+                    -ON=526) OBJECT(.\build\Debug\src\main.o)
 
 line level    source
 
-   1          #include "REG52.H"
+   1          #include "DS1302.h"
    2          #include "LCD1602.h"
-   3          
-   4          void main(){
-   5   1          LCD_Init();
-   6   1          LCD_ShowString(1, 1, "clock:");
-   7   1          while (1)
-   8   1          {
-   9   2              
-  10   2          }
-  11   1          
-  12   1      }
-C51 COMPILER V9.01   MAIN                                                                  04/18/2022 16:03:29 PAGE 2   
+   3          #include "REG52.H"
+   4          #include "delay.h"
+   5          unsigned char time[8];
+   6          
+   7          void main() {
+   8   1          LCD_Init();
+   9   1          DS1302_Init();
+  10   1          DS1302_Write_Time(22, 4, 19, 15, 59, 50, 2);
+  11   1          while (1) {
+  12   2              DS1302_Read_Time(time);
+  13   2              LCD_ShowNum(1, 1, time[1], 2);
+  14   2              LCD_ShowNum(1, 4, time[2], 2);
+  15   2              LCD_ShowNum(1, 7, time[3], 2);
+  16   2              LCD_ShowNum(2, 1, time[4], 2);
+  17   2              LCD_ShowNum(2, 4, time[5], 2);
+  18   2              LCD_ShowNum(2, 7, time[6], 2);
+  19   2          }
+  20   1      }
+C51 COMPILER V9.01   MAIN                                                                  04/19/2022 15:59:59 PAGE 2   
 
 ASSEMBLY LISTING OF GENERATED OBJECT CODE
 
 
              ; FUNCTION main (BEGIN)
-                                           ; SOURCE LINE # 4
-                                           ; SOURCE LINE # 5
-0000 120000      E     LCALL   LCD_Init
-                                           ; SOURCE LINE # 6
-0003 7BFF              MOV     R3,#0FFH
-0005 7A00        R     MOV     R2,#HIGH ?SC_0
-0007 7900        R     MOV     R1,#LOW ?SC_0
-0009 7D01              MOV     R5,#01H
-000B 7F01              MOV     R7,#01H
-000D 120000      E     LCALL   _LCD_ShowString
-0010         ?C0001:
                                            ; SOURCE LINE # 7
                                            ; SOURCE LINE # 8
+0000 120000      E     LCALL   LCD_Init
+                                           ; SOURCE LINE # 9
+0003 120000      E     LCALL   DS1302_Init
                                            ; SOURCE LINE # 10
-0010 80FE              SJMP    ?C0001
+0006 750000      E     MOV     ?_DS1302_Write_Time?BYTE+06H,#00H
+0009 75000F      E     MOV     ?_DS1302_Write_Time?BYTE+07H,#0FH
+000C 750000      E     MOV     ?_DS1302_Write_Time?BYTE+08H,#00H
+000F 75003B      E     MOV     ?_DS1302_Write_Time?BYTE+09H,#03BH
+0012 750000      E     MOV     ?_DS1302_Write_Time?BYTE+0AH,#00H
+0015 750032      E     MOV     ?_DS1302_Write_Time?BYTE+0BH,#032H
+0018 750000      E     MOV     ?_DS1302_Write_Time?BYTE+0CH,#00H
+001B 750002      E     MOV     ?_DS1302_Write_Time?BYTE+0DH,#02H
+001E 7B13              MOV     R3,#013H
+0020 7A00              MOV     R2,#00H
+0022 7D04              MOV     R5,#04H
+0024 7C00              MOV     R4,#00H
+0026 7F16              MOV     R7,#016H
+0028 7E00              MOV     R6,#00H
+002A 120000      E     LCALL   _DS1302_Write_Time
+002D         ?C0001:
+                                           ; SOURCE LINE # 11
+                                           ; SOURCE LINE # 12
+002D 7B00              MOV     R3,#00H
+002F 7A00        R     MOV     R2,#HIGH time
+0031 7900        R     MOV     R1,#LOW time
+0033 120000      E     LCALL   _DS1302_Read_Time
+                                           ; SOURCE LINE # 13
+0036 E500        R     MOV     A,time+01H
+0038 FB                MOV     R3,A
+0039 7A00              MOV     R2,#00H
+003B 750002      E     MOV     ?_LCD_ShowNum?BYTE+04H,#02H
+003E 7D01              MOV     R5,#01H
+0040 7F01              MOV     R7,#01H
+0042 120000      E     LCALL   _LCD_ShowNum
+                                           ; SOURCE LINE # 14
+0045 E500        R     MOV     A,time+02H
+0047 FB                MOV     R3,A
+0048 7A00              MOV     R2,#00H
+004A 750002      E     MOV     ?_LCD_ShowNum?BYTE+04H,#02H
+004D 7D04              MOV     R5,#04H
+004F 7F01              MOV     R7,#01H
+0051 120000      E     LCALL   _LCD_ShowNum
+                                           ; SOURCE LINE # 15
+0054 E500        R     MOV     A,time+03H
+0056 FB                MOV     R3,A
+0057 7A00              MOV     R2,#00H
+0059 750002      E     MOV     ?_LCD_ShowNum?BYTE+04H,#02H
+005C 7D07              MOV     R5,#07H
+005E 7F01              MOV     R7,#01H
+0060 120000      E     LCALL   _LCD_ShowNum
+                                           ; SOURCE LINE # 16
+0063 E500        R     MOV     A,time+04H
+0065 FB                MOV     R3,A
+0066 7A00              MOV     R2,#00H
+0068 750002      E     MOV     ?_LCD_ShowNum?BYTE+04H,#02H
+006B 7D01              MOV     R5,#01H
+C51 COMPILER V9.01   MAIN                                                                  04/19/2022 15:59:59 PAGE 3   
+
+006D 7F02              MOV     R7,#02H
+006F 120000      E     LCALL   _LCD_ShowNum
+                                           ; SOURCE LINE # 17
+0072 E500        R     MOV     A,time+05H
+0074 FB                MOV     R3,A
+0075 7A00              MOV     R2,#00H
+0077 750002      E     MOV     ?_LCD_ShowNum?BYTE+04H,#02H
+007A 7D04              MOV     R5,#04H
+007C 7F02              MOV     R7,#02H
+007E 120000      E     LCALL   _LCD_ShowNum
+                                           ; SOURCE LINE # 18
+0081 E500        R     MOV     A,time+06H
+0083 FB                MOV     R3,A
+0084 7A00              MOV     R2,#00H
+0086 750002      E     MOV     ?_LCD_ShowNum?BYTE+04H,#02H
+0089 7D07              MOV     R5,#07H
+008B 7F02              MOV     R7,#02H
+008D 120000      E     LCALL   _LCD_ShowNum
+                                           ; SOURCE LINE # 19
+0090 809B              SJMP    ?C0001
              ; FUNCTION main (END)
 
-C51 COMPILER V9.01   MAIN                                                                  04/18/2022 16:03:29 PAGE 3   
+C51 COMPILER V9.01   MAIN                                                                  04/19/2022 15:59:59 PAGE 4   
 
 NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
 ====                                    =====   ======  ====    ======  ====
@@ -59,6 +132,7 @@ AC . . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00D6H  1
 T1 . . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B5H  1
 T2 . . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0090H  1
 EA . . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00AFH  1
+_LCD_ShowNum . . . . . . . . . . . . .  EXTERN   CODE   PROC     -----  -----
 IE . . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   00A8H  1
 EXF2 . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00CEH  1
 RD . . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B7H  1
@@ -80,7 +154,9 @@ C_T2 . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00C9H  1
 WR . . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B6H  1
 RCLK . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00CDH  1
 TCLK . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00CCH  1
+_DS1302_Read_Time. . . . . . . . . . .  EXTERN   CODE   PROC     -----  -----
 P00. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0080H  1
+time . . . . . . . . . . . . . . . . .  PUBLIC   DATA   ARRAY    0000H  8
 P01. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0081H  1
 P10. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0090H  1
 SBUF . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0099H  1
@@ -104,15 +180,15 @@ P32. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B2H  1
 TMOD . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0089H  1
 TCON . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0088H  1
 P06. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0086H  1
-P15. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0095H  1
-P24. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A4H  1
-P33. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B3H  1
-C51 COMPILER V9.01   MAIN                                                                  04/18/2022 16:03:29 PAGE 4   
+C51 COMPILER V9.01   MAIN                                                                  04/19/2022 15:59:59 PAGE 5   
 
 NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
 ====                                    =====   ======  ====    ======  ====
 
 
+P15. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0095H  1
+P24. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A4H  1
+P33. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B3H  1
 P07. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0087H  1
 P16. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0096H  1
 P25. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A5H  1
@@ -125,13 +201,14 @@ P36. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B6H  1
 P37. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B7H  1
 IE0. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0089H  1
 IE1. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      008BH  1
+_DS1302_Write_Time . . . . . . . . . .  EXTERN   CODE   PROC     -----  -----
 B. . . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   00F0H  1
 CP_RL2 . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00C8H  1
 ACC. . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   00E0H  1
 ET0. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00A9H  1
-LCD_Init . . . . . . . . . . . . . . .  EXTERN   CODE   PROC     -----  -----
 ET1. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00ABH  1
 TF0. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      008DH  1
+LCD_Init . . . . . . . . . . . . . . .  EXTERN   CODE   PROC     -----  -----
 ET2. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00ADH  1
 TF1. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      008FH  1
 TF2. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00CFH  1
@@ -151,10 +228,10 @@ SM1. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      009EH  1
 TL1. . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   008BH  1
 SM2. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      009DH  1
 TL2. . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   00CCH  1
-_LCD_ShowString. . . . . . . . . . . .  EXTERN   CODE   PROC     -----  -----
 PT0. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B9H  1
 PT1. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00BBH  1
 RS0. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00D3H  1
+DS1302_Init. . . . . . . . . . . . . .  EXTERN   CODE   PROC     -----  -----
 PT2. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00BDH  1
 TR0. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      008CH  1
 RS1. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00D4H  1
@@ -166,25 +243,25 @@ DPH. . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0083H  1
 DPL. . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0082H  1
 EXEN2. . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00CBH  1
 REN. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      009CH  1
-T2CON. . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   00C8H  1
-RXD. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B0H  1
-TXD. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B1H  1
-F0 . . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00D5H  1
-C51 COMPILER V9.01   MAIN                                                                  04/18/2022 16:03:29 PAGE 5   
+C51 COMPILER V9.01   MAIN                                                                  04/19/2022 15:59:59 PAGE 6   
 
 NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
 ====                                    =====   ======  ====    ======  ====
 
 
+T2CON. . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   00C8H  1
+RXD. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B0H  1
+TXD. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00B1H  1
+F0 . . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00D5H  1
 PSW. . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   00D0H  1
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =     18    ----
-   CONSTANT SIZE    =      7    ----
+   CODE SIZE        =    146    ----
+   CONSTANT SIZE    =   ----    ----
    XDATA SIZE       =   ----    ----
    PDATA SIZE       =   ----    ----
-   DATA SIZE        =   ----    ----
+   DATA SIZE        =      8    ----
    IDATA SIZE       =   ----    ----
    BIT SIZE         =   ----    ----
    EDATA SIZE       =   ----    ----
