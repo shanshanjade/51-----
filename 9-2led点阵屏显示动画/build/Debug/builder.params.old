@@ -3,12 +3,12 @@
     "target": "Debug",
     "toolchain": "Keil_C51",
     "showRepathOnLog": true,
-    "threadNum": 6,
+    "threadNum": 10,
     "rootDir": "c:\\Users\\Administrator\\Desktop\\C51-learning\\9-2led点阵屏显示动画",
     "dumpPath": ".eide\\log",
     "outDir": "build\\Debug",
     "incDirs": [
-        "../../../../../Keil/C51/INC",
+        "../../../../../Keil_v5/C51/INC",
         "src",
         "../include"
     ],
@@ -17,6 +17,7 @@
         "__UVISION_VERSION=526"
     ],
     "sourceList": [
+        "../include/DS1302.c",
         "../include/LCD1602.c",
         "../include/Timer0.c",
         "../include/delay.c",
@@ -28,7 +29,7 @@
         "src/main.c"
     ],
     "sourceParams": {},
-    "sourceParamsMtime": 1650260547909.9387,
+    "sourceParamsMtime": 1650275101121.3733,
     "options": {
         "version": 2,
         "beforeBuildTasks": [],

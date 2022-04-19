@@ -1,5 +1,12 @@
 #include "DS1302.h"
 #include "REG52.H"
+<<<<<<< HEAD
+=======
+#include "DS1302.h"
+sbit DS1302_SCLK = P3 ^ 6;
+sbit DS1302_IO   = P3 ^ 4;
+sbit DS1302_CE   = P3 ^ 5;
+>>>>>>> 4eec1c20e38af43251e5f6607565e8f5bbfe3471
 
 sbit SCK = P3 ^ 6;  // DS1302时钟线
 sbit SDA = P3 ^ 4;  // DS1302数据线
@@ -30,6 +37,7 @@ void DS1302_Init(void) {
     SCK_CLR;  // SCK脚置低
     DS1302_Write_Byte(0x80, 0x00);
 }
+<<<<<<< HEAD
 
 /*------------------------------------------------
            向DS1302写入一字节数据
@@ -59,9 +67,24 @@ void DS1302_Write_Byte(unsigned char addr, unsigned char dat) {
         SCK_SET;
         SCK_CLR;
         dat = dat >> 1;
+=======
+void DS1302_WriteByte(unsigned char mycommand, unsigned char mydata) {
+    unsigned char i,j;
+    DS1302_CE = 1;
+    for (i = 0; i < 8; i++) {
+        DS1302_IO = mycommand & (0x01 << i);
+        DS1302_SCLK = 1;
+        DS1302_SCLK = 0;
+    }
+    for (j = 0; j < 8; j++) {
+        DS1302_IO = mydata & (0x01 << j);
+        DS1302_SCLK = 1;
+        DS1302_SCLK = 0;
+>>>>>>> 4eec1c20e38af43251e5f6607565e8f5bbfe3471
     }
     RST_CLR;  //停止DS1302总线
 }
+<<<<<<< HEAD
 
 /*------------------------------------------------
            从DS1302读出一字节数据
@@ -141,3 +164,23 @@ unsigned char DS1302_Read_Byte(unsigned char addr) {
 //     DS1302_Write_Byte(DS1302_DAY, time_buf[7]);   //周
 //     DS1302_Write_Byte(DS1302_CTRL, 0x80);         //打开写保护
 // }
+=======
+unsigned char DS1302_ReadByte(unsigned char mycommand) {
+    unsigned char i,j, mydata = 0x00;
+    DS1302_CE = 1;
+    for (i = 0; i < 8; i++) {
+        DS1302_IO = mycommand & (0x01 << i);
+        DS1302_SCLK = 0;
+        DS1302_SCLK = 1;
+    }
+    for ( j = 0; j < 8; j++)
+    {
+        DS1302_SCLK = 1;
+        DS1302_SCLK = 0;
+        if (DS1302_IO)
+            mydata |= (0x01<<j);
+    }
+    DS1302_CE = 1;
+    return mydata;
+}
+>>>>>>> 4eec1c20e38af43251e5f6607565e8f5bbfe3471

@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 
 .\build\Debug\src\include\DS1302.o,.\build\Debug\src\include\LCD1602.o,.\build\Debug\src\include\delay.o,.\build\Debug\src\main.o TO ".\build\Debug\10-1 DS1302 ±÷”"
+=======
+
+.\build\Debug\src\include\DS1302.o,.\build\Debug\src\include\LCD1602.o,.\build\Debug\src\include\Timer0.o,.\build\Debug\src\include\delay.o,.\build\Debug\src\include\key.o,.\build\Debug\src\include\matrixKey.o,.\build\Debug\src\include\matrixLED.o,.\build\Debug\src\include\nixieTube.o,.\build\Debug\src\include\uart.o,.\build\Debug\src\main.o TO ".\build\Debug\10-1 DS1302 ±÷”"
+>>>>>>> 4eec1c20e38af43251e5f6607565e8f5bbfe3471
 PRINT(".\build\Debug\10-1 DS1302 ±÷”.map") REMOVEUNUSED
