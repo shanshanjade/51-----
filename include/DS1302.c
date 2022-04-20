@@ -106,47 +106,40 @@ unsigned char DS1302_Read_Byte(unsigned char addr) {
 /*------------------------------------------------
            从DS1302读出时钟数据
 ------------------------------------------------*/
-void DS1302_Read_Time(unsigned char* buffer) {
+void DS1302_Read_Time(unsigned char* timeBuffer) {
     unsigned char i;
-    buffer[1] = DS1302_Read_Byte(DS1302_YEAR);          //年
-    buffer[2] = DS1302_Read_Byte(DS1302_MON);           //月
-    buffer[3] = DS1302_Read_Byte(DS1302_DATE);          //日
-    buffer[4] = DS1302_Read_Byte(DS1302_HOUR);          //时
-    buffer[5] = DS1302_Read_Byte(DS1302_MIN);           //分
-    buffer[6] = (DS1302_Read_Byte(DS1302_SEC)) & 0x7F;  //秒
-    buffer[7] = DS1302_Read_Byte(DS1302_DAY);           //周
+    timeBuffer[1] = DS1302_Read_Byte(DS1302_YEAR);          //年
+    timeBuffer[2] = DS1302_Read_Byte(DS1302_MON);           //月
+    timeBuffer[3] = DS1302_Read_Byte(DS1302_DATE);          //日
+    timeBuffer[4] = DS1302_Read_Byte(DS1302_HOUR);          //时
+    timeBuffer[5] = DS1302_Read_Byte(DS1302_MIN);           //分
+    timeBuffer[6] = (DS1302_Read_Byte(DS1302_SEC)) & 0x7F;  //秒
+    timeBuffer[7] = DS1302_Read_Byte(DS1302_DAY);           //周
 
     // 将BCD码转换为整数
     for (i = 0; i < 8; i++) {  // BCD处理
-        buffer[i] = buffer[i] / 16 * 10 + buffer[i] % 16;
+        timeBuffer[i] = timeBuffer[i] / 16 * 10 + timeBuffer[i] % 16;
     }
 }
 /*------------------------------------------------
            向DS1302写入时钟数据
 ------------------------------------------------*/
-void DS1302_Write_Time(int year, int month, int date, int hour, int minute, int second, int day) {
-    // 将整形数字转换为BCD码
-    year = year / 10 * 16 + year % 10;
-    month = month / 10 * 16 + month % 10;
-    date = date / 10 * 16 + date % 10;
-    hour = hour / 10 * 16 + hour % 10;
-    minute = minute / 10 * 16 + minute % 10;
-    second = second / 10 * 16 + second % 10;
-    day = day / 10 * 16 + day % 10;
-    // for (i = 0; i < 8; i++) {  // BCD处理
-    //     tmp = time_buf1[i] / 10;
-    //     time_buf[i] = time_buf1[i] % 10;
-    //     time_buf[i] = time_buf[i] + tmp * 16;
-    // }
+void DS1302_Write_Time(unsigned char* timeBuffer) {
+    unsigned char temp[8];
+    unsigned char i;
+    for (i = 0; i < 8; i++) {
+        temp[i] = timeBuffer[i] / 10 * 16 + timeBuffer[i] % 10;
+    }
+
     DS1302_Write_Byte(DS1302_CTRL, 0x00);  //关闭写保护
     DS1302_Write_Byte(DS1302_SEC, 0x80);   //暂停
     // DS1302_Write_Byte(DS1302_CHARGE,0xa9);  //涓流充电
-    DS1302_Write_Byte(DS1302_YEAR, year);   //年
-    DS1302_Write_Byte(DS1302_MON, month);   //月
-    DS1302_Write_Byte(DS1302_DATE, date);   //日
-    DS1302_Write_Byte(DS1302_HOUR, hour);   //时
-    DS1302_Write_Byte(DS1302_MIN, minute);  //分
-    DS1302_Write_Byte(DS1302_SEC, second);  //秒
-    DS1302_Write_Byte(DS1302_DAY, day);     //周
+    DS1302_Write_Byte(DS1302_YEAR, temp[1]);  //年
+    DS1302_Write_Byte(DS1302_MON, temp[2]);   //月
+    DS1302_Write_Byte(DS1302_DATE, temp[3]);  //日
+    DS1302_Write_Byte(DS1302_HOUR, temp[4]);  //时
+    DS1302_Write_Byte(DS1302_MIN, temp[5]);   //分
+    DS1302_Write_Byte(DS1302_SEC, temp[6]);   //秒
+    DS1302_Write_Byte(DS1302_DAY, temp[7]);   //周
     DS1302_Write_Byte(DS1302_CTRL, 0x80);   //打开写保护
 }

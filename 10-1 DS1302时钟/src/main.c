@@ -71,6 +71,7 @@ void main() {
                 showTime();
                 break;
             case 2:
+                setTime();
                 break;
             default:
                 break;
