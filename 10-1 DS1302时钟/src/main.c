@@ -18,6 +18,7 @@ void showTime() {
 void setTime() {
     if (keyNum == 1) {
         mode = 1;
+        timeSelect = 0;
         DS1302_Write_Time(time);
     }
 
@@ -63,7 +64,7 @@ void main() {
     LCD_Init();
     DS1302_Init();
     LCD_ShowString(1, 1, "  /  /  ");
-    LCD_ShowString(2, 1, "  -  -  ");
+    LCD_ShowString(2, 1, "  :  :  ");
     while (1) {
         keyNum = key();
         switch (mode) {
