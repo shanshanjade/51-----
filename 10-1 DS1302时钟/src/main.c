@@ -7,7 +7,7 @@ unsigned char time[8];
 void main() {
     LCD_Init();
     DS1302_Init();
-    DS1302_Write_Time(22, 4, 19, 15, 59, 50, 2);
+    DS1302_Write_Time(22, 4, 19, 15, 59, 50, 2);  //年 月 日 时 分 秒 周
     while (1) {
         DS1302_Read_Time(time);
         LCD_ShowNum(1, 1, time[1], 2);
