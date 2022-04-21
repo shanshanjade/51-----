@@ -5,6 +5,7 @@
 #include "delay.h"
 unsigned char time[8];
 unsigned char mode = 1, keyNum, timeSelect = 1, timeSetFlashFlag = 0;
+char week[][7] = {"Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"};
 
 void showTime() {
     DS1302_Read_Time(time);
@@ -14,6 +15,8 @@ void showTime() {
     LCD_ShowNum(2, 1, time[4], 2);
     LCD_ShowNum(2, 4, time[5], 2);
     LCD_ShowNum(2, 7, time[6], 2);
+
+    LCD_ShowString(1, 10, week[time[7]]);
 }
 void setTime() {
     if (keyNum == 1) {
@@ -23,7 +26,7 @@ void setTime() {
     }
 
     if (keyNum == 2) {
-        if (++timeSelect > 6)
+        if (++timeSelect > 7)
             timeSelect = 1;
     }
     if (keyNum == 3) {
@@ -53,16 +56,23 @@ void setTime() {
         LCD_ShowString(2, 4, "  ");
     else
         LCD_ShowNum(2, 4, time[5], 2);
+
     if (timeSelect == 6 && timeSetFlashFlag)
         LCD_ShowString(2, 7, "  ");
     else
         LCD_ShowNum(2, 7, time[6], 2);
+
+    if (timeSelect == 7 && timeSetFlashFlag)
+        LCD_ShowString(1, 10, "    ");
+    else
+        LCD_ShowString(1, 10, week[time[7]]);
 }
 
 void main() {
     timer0_Init();
     LCD_Init();
     DS1302_Init();
+    DS1302_Read_Time(time);
     LCD_ShowString(1, 1, "  /  /  ");
     LCD_ShowString(2, 1, "  :  :  ");
     while (1) {
