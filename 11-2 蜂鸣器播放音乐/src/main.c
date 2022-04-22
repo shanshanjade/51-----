@@ -199,25 +199,113 @@ unsigned char code music[] = {
     H2, 2 + 4,
     M7, 4,
 
-    M6, 4 + 4 + 4
+    M6, 4 + 4 + 4,
+
+    0xFF
 
 };
-unsigned char freqSelect, musicSelect;
+
+unsigned char code music2[] = {
+    M5, 2,
+    M5, 2,
+    M5, 2,
+    M5, 2,
+    M3, 2,
+    M4, 2,
+
+    M5, 6,
+    M7, 6,
+
+    M6, 2,
+    M6, 2,
+    M6, 2,
+    M6, 2,
+    M4, 2,
+    M6, 2,
+
+    M5, 6+6,
+
+    M5, 2,
+    M5, 2,
+    M5, 2,
+    M5, 2,
+    M7, 2,
+    M6, 2,
+
+    M5, 6,
+    M4, 6,
+
+    M4, 2,
+    M4, 2,
+    M4, 2,
+    M4, 2,
+    M3, 2,
+    M2, 2,
+
+    M1, 6+6,
+
+    H1, 2,
+    H1, 2,
+    H1, 2,
+    H1, 2,
+    M5, 2,
+    M6, 2,
+
+    H1, 4,
+    H1, 2,
+    H3, 6,
+
+    H2, 2,
+    H2, 2,
+    H2, 2,
+    H2, 2,
+    H1, 2,
+    M7, 2,
+
+    M6, 4+4,
+
+    M7, 2,
+    M7, 2,
+    M7, 2,
+    M7, 2,
+    M7, 2,
+    H1, 2,
+
+    H2, 6,
+    M5, 6,
+
+    M7, 2,
+    M7, 2,
+    H1, 2,
+    H2, 2,
+    H1, 2,
+    M7, 2,
+
+    H1, 6+6,
+    0xFF
+};
+
+unsigned char *tape[] = {music, music2}; 
+
+
+unsigned char freqSelect, musicSelect, tapeSelect;
 void main() {
     timer0_Init();
     while (1) {
-        if (music[musicSelect] != 0xFF) {
-            freqSelect = music[musicSelect];
+        if (tape[tapeSelect][musicSelect] != 0xFF) {
+            freqSelect = tape[tapeSelect][musicSelect];
             musicSelect++;
-            delay(SPEED / 4 * music[musicSelect]);
+            delay(SPEED / 4 * tape[tapeSelect][musicSelect]);
             musicSelect++;
             TR0 = 0;
             delay(5);
             TR0 = 1;
         } else {
-            TR0 = 0;
-            while (1)
-                ;
+            musicSelect = 0; freqSelect = 0;
+            tapeSelect = ++tapeSelect % 2;
+            // TR0 = 0;
+            // while (1)
+            //     ;
         }
     }
 }
