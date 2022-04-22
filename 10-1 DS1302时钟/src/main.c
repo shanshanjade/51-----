@@ -97,7 +97,7 @@ void Timer0_Routine() interrupt 1 {
     TH0 = 0xFC;
     T0Count++;
     T0Count1++;
-    if (T0Count == 10) {
+    if (T0Count == 10) { //扫描按键
         T0Count = 0;
         if (keyNum) {
             if (keyNum == 1)
@@ -106,7 +106,7 @@ void Timer0_Routine() interrupt 1 {
                 mode = 2;
         }
     }
-    if (T0Count1 == 500) {
+    if (T0Count1 == 500) { //选择控制闪烁
         T0Count1 = 0;
         timeSetFlashFlag = !timeSetFlashFlag;
     }
