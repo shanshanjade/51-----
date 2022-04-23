@@ -13,6 +13,7 @@ void main() {
     delay(100);
 
     readData = at24c02_ReadByte(1);
+    delay(100);
     LCD_ShowNum(2, 1, readData, 4);
     while (1) {
     }

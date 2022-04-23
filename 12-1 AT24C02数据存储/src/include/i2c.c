@@ -12,6 +12,7 @@ void I2C_Start() {
 }
 // i2c 停止
 void I2C_Stop() {
+    I2C_SCL = 0;
     I2C_SDA = 0;
     I2C_SCL = 1;
     I2C_SDA = 1;
