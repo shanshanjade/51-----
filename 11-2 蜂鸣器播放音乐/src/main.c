@@ -204,7 +204,6 @@ unsigned char code music[] = {
     0xFF
 
 };
-
 unsigned char code music2[] = {
     M5, 2,
     M5, 2,
