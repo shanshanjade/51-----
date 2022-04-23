@@ -1,9 +1,10 @@
 #include "REG52.H"
 #include "nixieTube.h"
 #include "delay.h"
-
+unsigned char nixie_buffer[9];
 unsigned char nixieTubeTable[] = {0x3f,0x06,0x5b,0x4f,0x66,0x6d,0x7d,0x07,0x7f,0x6f};
 void nixieTube(unsigned char pos,unsigned char num){
+    P1 = 0x00;
     switch (pos)
     {
     case 8:P24 = 1;P23 = 1;P22 = 1; break;
@@ -17,6 +18,11 @@ void nixieTube(unsigned char pos,unsigned char num){
     default:break;
     }
     P1 = nixieTubeTable[num];   
-    delay(1);
-    P1 = 0x00;
+}
+
+void nixie_loop(){
+    static unsigned char i;
+    nixieTube(i, nixie_buffer[i]);
+    if(++i >= 9)
+        i = 1;
 }
