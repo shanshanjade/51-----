@@ -10,7 +10,7 @@ void main() {
     LCD_ShowString(1, 1, "at24c02");
     delay(100);
     at24c02_WriteByte(1, 1);
-    delay(100);
+    delay(3000);
 
     readData = at24c02_ReadByte(1);
     delay(100);

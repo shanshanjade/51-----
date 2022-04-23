@@ -9,8 +9,6 @@ void at24c02_WriteByte(unsigned char WordAddress, unsigned char byte) {
     I2C_SendByte(AT24C02_ADDRESS);
     if (!I2C_ReceiveAck())
         tt++;
-    if (!I2C_ReceiveAck())
-        tt++;
     LCD_ShowNum(1, 10, tt, 3);
     I2C_SendByte(AT24C02_ADDRESS);
     if (!I2C_ReceiveAck())
