@@ -4,8 +4,8 @@
 #include "REG52.H"
 
 /*IIC管脚定义*/
-sbit IIC_SDA = P3 ^ 0;
-sbit IIC_SCL = P3 ^ 1;
+sbit IIC_SDA = P2 ^ 0;
+sbit IIC_SCL = P2 ^ 1;
 
 void IO_Init();
 void IIC_Start();
