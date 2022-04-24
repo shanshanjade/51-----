@@ -6,7 +6,15 @@ unsigned char keyNum = 0;
 unsigned int passWord = 0;
 unsigned char count = 0;
 char* aa = ""; 
+struct abc
+{
+    unsigned char a;
+    int b;
+};
+
+
 void main() {
+    abc a;
     LCD_Init();
     LCD_ShowString(1, 1, "Pass Word :");
     while (1) {
