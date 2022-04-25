@@ -5,14 +5,10 @@
 #include "i2c.h"
 
 //要写入到24c02的字符串数组
-const unsigned char TEXT_Buffer[] = {"STC51"};
-unsigned char TEXT_Buffer1[] = {"00000"};  //数组一定初始化
 
-#define SIZE sizeof(TEXT_Buffer)
 
 void main() {
     unsigned char dat = 48;
-    unsigned char Text = 6 + '0';
     unsigned char val;
 
     LCD_Init();
