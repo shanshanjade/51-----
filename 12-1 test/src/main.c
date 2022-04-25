@@ -13,6 +13,8 @@ void main() {
 
     LCD_Init();
     AT24C02_Init();
+    At24c02_Write_Byte(10, dat);
+    delay_ms(10);
     val = At24c02_Read_Byte(10);
     LCD_ShowNum(2, 1, val, 3);
     while (1) {

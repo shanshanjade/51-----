@@ -1,4 +1,8 @@
-#ifndef __DELAY_H__
-#define __DELAY_H__
-void delay(unsigned int n);  //@12.000MHz
-#endif // !__DELAY_H__
+#ifndef _DELAY_H
+#define _DELAY_H
+
+
+void delay_us(unsigned char t);
+void delay_ms(unsigned int t);
+
+#endif
