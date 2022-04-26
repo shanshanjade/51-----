@@ -8,6 +8,7 @@
 unsigned char keyNum;
 unsigned char min,sec,minisec;
 unsigned char runFlag;
+
 void main() {
     timer0_Init();
     while (1) {
@@ -17,6 +18,7 @@ void main() {
             min = sec = minisec = 0;
         }
         if (keyNum == 3)  {
+            
             at24c02_WriteByte(0, min);
             delay(10);
             at24c02_WriteByte(1, sec);
@@ -61,7 +63,7 @@ void sec_loop(){
 }
 
 void Timer0_Routine() interrupt 1 {
-    static unsigned int T0Count, T0Count1,T0Count2;
+    static unsigned int T0Count, T0Count1, T0Count2;
     TL0 = 0x18;
     TH0 = 0xFC;
     T0Count++;
