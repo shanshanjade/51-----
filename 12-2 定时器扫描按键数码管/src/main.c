@@ -2,20 +2,34 @@
 #include "Timer0.h"
 #include "key.h"
 #include "nixieTube.h"
-#include "LCD1602.h"
+#include "at24c02.h"
+#include "delay.h"
 
 unsigned char keyNum;
 unsigned char min,sec,minisec;
 unsigned char runFlag;
 void main() {
     timer0_Init();
-    LCD_Init();
     while (1) {
         keyNum = key();
         if (keyNum == 1) runFlag = !runFlag;
         if (keyNum == 2) {
             min = sec = minisec = 0;
         }
+        if (keyNum == 3)  {
+            at24c02_WriteByte(0, min);
+            delay(10);
+            at24c02_WriteByte(1, sec);
+            delay(10);
+            at24c02_WriteByte(2, minisec);
+            delay(10);
+        }
+        if (keyNum == 4) {
+            min = at24c02_ReadByte(0);
+            sec =  at24c02_ReadByte(1);
+            minisec = at24c02_ReadByte(2);
+        }
+
         nixie_setBuffer(1, min/10);
         nixie_setBuffer(2, min%10);
         nixie_setBuffer(3, 11);

@@ -4,7 +4,7 @@
 #include "delay.h"
 #include "i2c.h"
 
-//要写入到24c02的字符串数组
+
 
 
 void main() {
