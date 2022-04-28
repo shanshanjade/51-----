@@ -19,25 +19,25 @@ unsigned char wire_Init(){
     return AckBit; // 返回 0 为应答， 返回 1 为非应答
 }
 // 发送一位
-void wire_SendBit(unsigned char bit) {
+void wire_SendBit(unsigned char _bit) {
     unsigned char i;   
 
     wire_DQ = 0;			//拉低总线
     i = 4; while (--i);  	//延时10us
-    wire_DQ = bit;			//写入总线1位
+    wire_DQ = _bit;			//写入总线1位
 	i = 24; while (--i); 	//延时50us
 	wire_DQ = 1; 			//释放总线
 }
 // 接收一位
 unsigned char wire_ReceiveBit()	{
-	unsigned char i,bit;
+	unsigned char i,_bit;
 	wire_DQ = 0;			//拉低总线
 	i = 2; while (--i); 	//延时5us
 	wire_DQ = 1;			//拉低总线
 	i = 2; while (--i); 	//延时5us
-	bit = wire_DQ;			//读取总线
+	_bit = wire_DQ;			//读取总线
 	i = 24; while (--i); 	//延时50us
-	return bit;
+	return _bit;
 }
 // 发送一个字节
 void wire_SendByte(unsigned char byte) {
@@ -57,3 +57,4 @@ unsigned char wire_ReceiveByte() {
 	}
 	return byte;
 }
+
