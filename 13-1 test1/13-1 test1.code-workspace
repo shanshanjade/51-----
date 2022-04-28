@@ -18,15 +18,13 @@
             "*.cpp": "cpp",
             "*.cxx": "cpp",
             "*.cc": "cpp",
-            "INTRINS.H": "cpp",
             "STDIO.H": "cpp"
         },
         "[yaml]": {
             "editor.insertSpaces": true,
             "editor.tabSize": 4,
             "editor.autoIndent": "advanced"
-        },
-        "C_Cpp.errorSquiggles": "Disabled"
+        }
     },
     "extensions": {
         "recommendations": [

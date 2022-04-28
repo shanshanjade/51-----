@@ -23,9 +23,11 @@ float ds18b20_ReadT(){
     wire_SendByte(READ_SCRATCHPAD);
     TLSB = wire_ReceiveByte();
     TMSB = wire_ReceiveByte();
+
     LCD_ShowBinNum(1,1,TMSB,8);
     LCD_ShowBinNum(1,9,TLSB,8);
-    temp = (TMSB << 8) | TLSB;
+    temp = TMSB;
+    temp = (temp << 8) | TLSB;
     T = temp / 16.0;
     return T;
 }
