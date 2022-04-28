@@ -1,13 +1,18 @@
-#ifndef __I2C_H__
-#define __I2C_H__
+#ifndef _I2C_H
+#define _I2C_H
 
-void I2C_Start();
-void I2C_Stop();
+#include "REG52.H"
 
-void I2C_SendByte(unsigned char byte);
-unsigned char I2C_ReceiveByte();
+/*IIC管脚定义*/
+sbit IIC_SDA = P2 ^ 0;
+sbit IIC_SCL = P2 ^ 1;
 
-void I2C_SendAck(unsigned char AckBit);
-unsigned char I2C_ReceiveAck();
+void IO_Init();
+void IIC_Start();
+void IIC_Stop();
+void IIC_Ack();
+void IIC_NAck();
+void IIC_Write_Byte(unsigned char txd);
+unsigned char IIC_Read_Byte();
 
-#endif  // !__I2C_H__
+#endif

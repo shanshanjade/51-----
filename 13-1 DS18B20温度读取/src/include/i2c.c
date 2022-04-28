@@ -1,56 +1,130 @@
+#include "delay.h"
 #include "i2c.h"
 #include "REG52.H"
-#include "delay.h"
 
-sbit I2C_SCL = P2 ^ 1;
-sbit I2C_SDA = P2 ^ 0;
-// i2c 开始
-void I2C_Start() {
-    I2C_SDA = 1;
-    I2C_SCL = 1;
-    I2C_SDA = 0;
-    I2C_SCL = 0;
+// Function:初始化IO口
+// Description：GPIO初始化为高,通知器件总线空闲
+// Input:无
+// Output:无
+// Return:无
+// Others:无
+void IO_Init() {
+    IIC_SCL = 1;
+    delay_us(5);
+    IIC_SDA = 1;
+    delay_us(5);
 }
-// i2c 停止
-void I2C_Stop() {
-    I2C_SCL = 0;
-    I2C_SDA = 0;
-    I2C_SCL = 1;
-    I2C_SDA = 1;
+
+// Function:启动IIC传输
+// Description：IIC_SCL为高时,IIC_SDA由高到低
+// Input:无
+// Output:无
+// Return:无
+// Others:无
+void IIC_Start() {
+    IIC_SDA = 1;
+    IIC_SCL = 1;
+    delay_us(5);
+    IIC_SDA = 0;
+    delay_us(5);
+    IIC_SCL = 0;
 }
-// i2c 发送一个字节
-void I2C_SendByte(unsigned char byte) {
+
+// Function:停止IIC传输
+// Description：IIC_SCL为高时,IIC_SDA由低到高
+// Input:无
+// Output:无
+// Return:无
+// Others:无
+void IIC_Stop() {
+    IIC_SCL = 0;
+    IIC_SDA = 0;
+    delay_us(5);
+    IIC_SCL = 1;
+    IIC_SDA = 1;
+    delay_us(5);
+}
+
+// Function:产生应答信号
+// Description：IIC_SCL为高时,IIC_SDA被拉低并保持一定时间的低电平
+// Input:无
+// Output:无
+// Return:无
+// Others:无
+void IIC_Ack() {
     unsigned char i;
-    for (i = 0; i < 8; i++) {
-        I2C_SDA = byte & (0x80 >> i);
-        I2C_SCL = 1;
-        I2C_SCL = 0;
+
+    IIC_SCL = 1;  //在scl为高电平期间等待应答
+    delay_ms(2);
+    while ((IIC_SDA == 1) && i < 250)  //若为应答0即退出，从机向主机发送应答信号
+        i++;                           //通过i自增等待一段时间
+    IIC_SCL = 0;                       //得到应答,拉低时钟
+    delay_ms(2);
+}
+
+// Function:产生非应答信号
+// Description：IIC_SCL为高时,IIC_SDA为高
+// Input:无
+// Output:无
+// Return:无
+// Others:无
+void IIC_NAck() {
+    IIC_SCL = 1;
+    delay_ms(2);
+    IIC_SDA = 1;
+    IIC_SCL = 0;
+    delay_ms(2);
+}
+
+// Function:I2C写一个字节数据，返回ACK或者NACK
+// Description：从高位开始依次传输
+// Input:写的字节
+// Output:无
+// Return:无
+// Others:无
+void IIC_Write_Byte(unsigned char txd) {
+    unsigned char len;
+
+    for (len = 0; len < 8; len++) {
+        IIC_SCL = 0;  //只有在IIC_SCL为低电平时,才允许IIC_SDA上的数据变化
+        delay_us(5);
+        if (txd & 0x80)
+            IIC_SDA = 1;
+        else
+            IIC_SDA = 0;
+        delay_us(5);
+        IIC_SCL = 1;  //在IIC_SCL为高电平时,不允许IIC_SDA上的数据变化，使数据稳定
+        txd <<= 1;
+        delay_us(10);
+        IIC_SCL = 0;
+        delay_us(5);
     }
+    IIC_SDA = 1;  //释放总线
+    IIC_SCL = 1;
+    delay_us(5);
 }
-// i2c 接收一个字节 返回接收到的一个字节数据
-unsigned char I2C_ReceiveByte() {
-    unsigned char i, Byte;
-    I2C_SDA = 1;
-    for (i = 0; i < 8; i++) {
-        I2C_SCL = 1;
-        if (I2C_SDA)
-            Byte |= (0x80 >> i);
-        I2C_SCL = 0;
+
+// Function:I2C读一个字节数据，返回ACK或者NACK
+// Description：从高到低,依次接收
+// Input:是否应答
+// Output:无
+// Return:接收的数据
+// Others:无
+unsigned char IIC_Read_Byte(/*unsigned char ack*/) {
+    unsigned char len, dat = 0;
+
+    IIC_SDA = 1;  //准备读取数据
+    for (len = 0; len < 8; len++) {
+        IIC_SCL = 0;
+        delay_us(5);
+        IIC_SCL = 1;  //不允许IIC_SDA变化
+        delay_us(5);
+        dat <<= 1;
+        dat |= IIC_SDA;  //读数据
+        delay_us(5);
+        IIC_SCL = 0;  //允许IIC_SDA变化等待下一位数据的到来
+        delay_us(5);
     }
-    return Byte;
-}
-// i2c 发送应答 参数 AckBit ： 0为应答，1为非应答
-void I2C_SendAck(unsigned char AckBit) {
-    I2C_SDA = AckBit;
-    I2C_SCL = 1;
-    I2C_SCL = 0;
-}
-// i2c 接收应答 返回值接收到的应答位，0为应答， 1为非应答
-unsigned char I2C_ReceiveAck() {
-    unsigned char AckBit;
-    I2C_SDA = 1;
-    I2C_SCL = 1;
-    AckBit = I2C_SDA;
-    I2C_SCL = 0;
-    return AckBit;
+
+    return dat;
 }
