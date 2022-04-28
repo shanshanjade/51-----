@@ -27,7 +27,7 @@ void _74hc595_WriteByte(unsigned char byte) {
 void matrixLED_ShowColumn(unsigned char column, unsigned char mydata) {
     _74hc595_WriteByte(mydata);
     MATRIX_LED_PORT = ~(0x80 >> column);
-    delay(1);
+    delay_ms(1);
     MATRIX_LED_PORT = 0xFF;
 }
 void matrixLED_Delay(){
