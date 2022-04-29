@@ -25,6 +25,10 @@ void main(){
     AT24C02_Init();
     ds18b20_ConvertT();
     delay_ms(1000);
+    Thigh =  At24c02_Read_Byte(0);
+    Tlow =  At24c02_Read_Byte(1);
+    LCD_line = 2;
+    printf("TH:%+4d\tTL:%+4d\n", (int)Thigh, (int)Tlow);
     while (1){
         keyNum = key();
         ds18b20_ConvertT();
@@ -46,6 +50,9 @@ void main(){
             }
             LCD_line = 2;
             printf("TH:%+4d\tTL:%+4d\n", (int)Thigh, (int)Tlow);
+
+            At24c02_Write_Byte(0, Thigh);
+            At24c02_Write_Byte(1, Tlow);
         }
         delay_ms(500);
     }
