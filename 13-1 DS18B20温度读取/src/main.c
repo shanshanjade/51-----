@@ -6,12 +6,11 @@
 #include "wire.h"
 #include "STDIO.H"
 
-unsigned char Ack;
 float T;
 
 char putchar(unsigned char c) {
     static int x = 1;
-    if (c == '\n') {x = 1; return;} 
+    if (c == '\n') {x = 1; return c;} 
     LCD_ShowChar(1, x++,c);
     return c;
 }
