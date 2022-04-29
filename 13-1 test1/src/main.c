@@ -26,8 +26,7 @@ unsigned char Init_DS18B20(void)
 }
 
 /*****读一个字节*****/
-unsigned char ReadOneChar(void)
-{
+unsigned char ReadOneChar(void) {
   unsigned char i=0;
   unsigned char dat = 0;
   for (i=8;i>0;i--)
@@ -64,10 +63,12 @@ int ReadTemperature(void)
   	unsigned char b=0;
   	unsigned int t=0;
   	t=Init_DS18B20();
+    LCD_ShowNum(1,1,t,2);
   	if(t) return;
   	WriteOneChar(0xCC);  //跳过读序号列号的操作
   	WriteOneChar(0x44);  //启动温度转换
   	t=Init_DS18B20();
+    LCD_ShowNum(1,1,t,2);
   	if(t) return;
   	WriteOneChar(0xCC);  //跳过读序号列号的操作
   	WriteOneChar(0xBE);  //读取温度寄存器
@@ -75,23 +76,22 @@ int ReadTemperature(void)
   	b=ReadOneChar();     //读高8位
     LCD_ShowBinNum(1,1,b,8);
     LCD_ShowBinNum(1,9,a,8);
+    // LCD_ShowString(1,1,"hello world!");
   	t=b;
   	t<<=8;
   	t=t|a;
   	if(t<=0||t>0x900) 
 	    return;
-	t=t*0.0625;
+	  t=t*0.0625;
   	return(t);
 }
 
 void main(){
     int temp;
     LCD_Init();
-
-    while (1)
-    {
+    while (1) {
         temp = ReadTemperature();
-        LCD_ShowSignedNum(2, 1, temp, 3);
+        LCD_ShowSignedNum(2, 3, temp, 3);
         
     }
     
