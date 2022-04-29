@@ -7,17 +7,20 @@ void delay(unsigned int t){
 	for(;t>0;t--);
 }
 
-// 初始化
+// 初始化 
 unsigned char wire_Init(){ 
-    unsigned char AckBit;
+    unsigned char AckBit,i;
     wire_DQ = 1;
-	delay(8);
+	// delay(8);
     wire_DQ = 0;			//拉低总线
-	delay(80);
+	i = 247; while (--i); 
+	// delay(80);
     wire_DQ = 1;          	//释放总线
-	delay(8);
+	i = 32; while (--i); 
+	// delay(8);
     AckBit = wire_DQ;		//读取总线
-	delay(4);
+	i = 247; while (--i); 
+	// delay(4);
     return AckBit; // 返回 0 为应答， 返回 1 为非应答
 }
 // 发送一个字节
