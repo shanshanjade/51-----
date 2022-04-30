@@ -36,7 +36,7 @@ unsigned char ReadOneChar(void) {
     DQ = 1;     // 给脉冲信号
     if(DQ)
     	dat|=0x80;
-	delay(4);
+	  delay(4);
   }
   return(dat);
 }
@@ -49,7 +49,7 @@ void WriteOneChar(unsigned char dat)
   {
     DQ = 0;
     DQ = dat&0x01;
-	delay(4);
+	  delay(4);
     DQ = 1;
     dat>>=1;
   }
@@ -76,7 +76,6 @@ int ReadTemperature(void)
   	b=ReadOneChar();     //读高8位
     LCD_ShowBinNum(1,1,b,8);
     LCD_ShowBinNum(1,9,a,8);
-    // LCD_ShowString(1,1,"hello world!");
   	t=b;
   	t<<=8;
   	t=t|a;
@@ -92,7 +91,7 @@ void main(){
     while (1) {
         temp = ReadTemperature();
         LCD_ShowSignedNum(2, 3, temp, 3);
-        
+        delay(100);
     }
     
 }

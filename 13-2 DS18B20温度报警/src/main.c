@@ -7,6 +7,7 @@
 #include "wire.h"
 #include "STDIO.H"
 #include "Timer0.h"
+#include "buzzer.h"
 
 float T;
 char Thigh=0,Tlow=0;
@@ -54,7 +55,12 @@ void main(){
             At24c02_Write_Byte(0, Thigh);
             At24c02_Write_Byte(1, Tlow);
         }
-        delay_ms(500);
+        
+        if (T > Thigh || T < Tlow)  {
+            buzzerTime(1000);
+        } else {
+            delay_ms(1000);
+        }
     }
 }
 // 定时器中断检测按键
@@ -67,4 +73,5 @@ void Timer0_Routine() interrupt 1 {
         key_loop();
         T0Count = 0;
     }
+    
 }
